@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\caio.calisto\\OneDrive - EY\\Documentos\\GitHub\\GRCFinancialControl\\GRC.Shared.UI\\GRC.Shared.UI.csproj": {}
+    "/workspace/GRC.Shared.UI/GRC.Shared.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\caio.calisto\\OneDrive - EY\\Documentos\\GitHub\\GRCFinancialControl\\GRC.Shared.UI\\GRC.Shared.UI.csproj": {
+    "/workspace/GRC.Shared.UI/GRC.Shared.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\caio.calisto\\OneDrive - EY\\Documentos\\GitHub\\GRCFinancialControl\\GRC.Shared.UI\\GRC.Shared.UI.csproj",
+        "projectUniqueName": "/workspace/GRC.Shared.UI/GRC.Shared.UI.csproj",
         "projectName": "GRC.Shared.UI",
-        "projectPath": "C:\\Users\\caio.calisto\\OneDrive - EY\\Documentos\\GitHub\\GRCFinancialControl\\GRC.Shared.UI\\GRC.Shared.UI.csproj",
-        "packagesPath": "C:\\Users\\caio.calisto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\caio.calisto\\OneDrive - EY\\Documentos\\GitHub\\GRCFinancialControl\\GRC.Shared.UI\\obj\\",
+        "projectPath": "/workspace/GRC.Shared.UI/GRC.Shared.UI.csproj",
+        "packagesPath": "/home/ubuntu/.nuget/packages/",
+        "outputPath": "/workspace/GRC.Shared.UI/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\caio.calisto\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/ubuntu/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,15 +29,9 @@
           }
         },
         "warningProperties": {
-          "allWarningsAsErrors": true,
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -87,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.415/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

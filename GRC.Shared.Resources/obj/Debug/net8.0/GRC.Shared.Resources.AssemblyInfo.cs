@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GRC.Shared.Resources")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12a13b6b136b3648cda60526fccb175af7d384ac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fef60bc1d67f7a80173ec3f7f9782e95a8e795d")]
 [assembly: System.Reflection.AssemblyProductAttribute("GRC.Shared.Resources")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GRC.Shared.Resources")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
