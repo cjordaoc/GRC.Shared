@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GRC.Shared.UI</name>
+    </assembly>
+    <members>
+        <member name="M:GRC.Shared.UI.Controls.SidebarHost.InitializeComponent(System.Boolean)">
+            <summary>
+            Wires up the controls and optionally loads XAML markup and attaches dev tools (if Avalonia.Diagnostics package is referenced).
+            </summary>
+            <param name="loadXaml">Should the XAML be loaded into the component.</param>
+        </member>
+        <member name="T:GRC.Shared.UI.Messages.CloseDialogMessage">
+            <summary>
+            Broadcasts that the active dialog should close.
+            </summary>
+        </member>
+        <member name="M:GRC.Shared.UI.Messages.CloseDialogMessage.#ctor(System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GRC.Shared.UI.Messages.CloseDialogMessage"/> class.
+            </summary>
+            <param name="wasConfirmed">Indicates whether the dialog confirmed the requested action.</param>
+        </member>
+        <member name="T:GRC.Shared.UI.Messages.RefreshTargets">
+            <summary>
+            Provides shared refresh target identifiers consumed across desktop applications.
+            </summary>
+        </member>
+        <member name="F:GRC.Shared.UI.Messages.RefreshTargets.InvoiceLinesGrid">
+            <summary>
+            Represents a refresh request scoped to invoice planner invoice lines grid layout.
+            </summary>
+        </member>
+        <member name="F:GRC.Shared.UI.Messages.RefreshTargets.FinancialData">
+            <summary>
+            Represents a refresh request for GRC Financial Control data collections.
+            </summary>
+        </member>
+        <member name="T:GRC.Shared.UI.Messages.RefreshViewMessage">
+            <summary>
+            Signals that a view should refresh its data or layout.
+            </summary>
+        </member>
+        <member name="M:GRC.Shared.UI.Messages.RefreshViewMessage.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GRC.Shared.UI.Messages.RefreshViewMessage"/> class.
+            </summary>
+            <param name="target">Optional identifier describing which view should refresh. <c>null</c> means broadcast to all listeners.</param>
+        </member>
+        <member name="P:GRC.Shared.UI.Messages.RefreshViewMessage.IsGlobal">
+            <summary>
+            Gets a value indicating whether the refresh request is for all listeners.
+            </summary>
+        </member>
+        <member name="M:GRC.Shared.UI.Messages.RefreshViewMessage.Matches(System.String)">
+            <summary>
+            Determines whether the refresh request applies to the provided target.
+            </summary>
+            <param name="target">The target identifier to evaluate.</param>
+            <returns><c>true</c> when the request should be processed; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="T:GRC.Shared.UI.ViewModels.ObservableViewModelBase">
+            <summary>
+            Provides common messenger plumbing and command helpers for observable view models.
+            </summary>
+        </member>
+        <member name="M:GRC.Shared.UI.ViewModels.ObservableViewModelBase.#ctor(CommunityToolkit.Mvvm.Messaging.IMessenger)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GRC.Shared.UI.ViewModels.ObservableViewModelBase"/> class.
+            </summary>
+            <param name="messenger">Optional messenger instance used for cross-component communication.</param>
+        </member>
+        <member name="P:GRC.Shared.UI.ViewModels.ObservableViewModelBase.Messenger">
+            <summary>
+            Gets the messenger used to communicate across view models.
+            </summary>
+        </member>
+        <member name="M:GRC.Shared.UI.ViewModels.ObservableViewModelBase.LoadDataAsync">
+            <summary>
+            Loads any external data required by the view model. Override to supply custom loading logic.
+            </summary>
+            <returns>A task that completes when the load cycle ends.</returns>
+        </member>
+        <member name="M:GRC.Shared.UI.ViewModels.ObservableViewModelBase.NotifyCommandCanExecute(CommunityToolkit.Mvvm.Input.IRelayCommand)">
+            <summary>
+            Notifies the provided command that its execution eligibility may have changed.
+            </summary>
+            <param name="command">The command requiring a refresh.</param>
+        </member>
+        <member name="T:GRC.Shared.UI.ViewModels.ValidatableViewModelBase">
+            <summary>
+            Provides messenger-driven refresh handling and command helpers for validatable view models.
+            </summary>
+        </member>
+        <member name="M:GRC.Shared.UI.ViewModels.ValidatableViewModelBase.#ctor(CommunityToolkit.Mvvm.Messaging.IMessenger,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Initializes a new instance of the <see cref="T:GRC.Shared.UI.ViewModels.ValidatableViewModelBase"/> class.
+            </summary>
+            <param name="messenger">Optional messenger instance used for cross-component communication.</param>
+            <param name="autoRefreshTargets">Optional refresh targets that should trigger an automatic reload.</param>
+        </member>
+        <member name="P:GRC.Shared.UI.ViewModels.ValidatableViewModelBase.Messenger">
+            <summary>
+            Gets the messenger used to communicate across view models.
+            </summary>
+        </member>
+        <member name="M:GRC.Shared.UI.ViewModels.ValidatableViewModelBase.LoadDataAsync">
+            <summary>
+            Loads any external data required by the view model. Override to supply custom loading logic.
+            </summary>
+            <returns>A task that completes when the load cycle ends.</returns>
+        </member>
+        <member name="M:GRC.Shared.UI.ViewModels.ValidatableViewModelBase.Receive(GRC.Shared.UI.Messages.RefreshViewMessage)">
+            <inheritdoc />
+        </member>
+        <member name="M:GRC.Shared.UI.ViewModels.ValidatableViewModelBase.NotifyCommandCanExecute(CommunityToolkit.Mvvm.Input.IRelayCommand)">
+            <summary>
+            Notifies the provided command that its execution eligibility may have changed.
+            </summary>
+            <param name="command">The command requiring a refresh.</param>
+        </member>
+    </members>
+</doc>
