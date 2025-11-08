@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\caio.calisto\\OneDrive - EY\\Documentos\\GitHub\\GRCFinancialControl\\GRC.Shared\\GRC.Shared.Resources\\GRC.Shared.Resources.csproj": {}
+    "C:\\FourTierManagementWinUI3\\GRC.Shared\\GRC.Shared.Resources\\GRC.Shared.Resources.csproj": {}
   },
   "projects": {
-    "C:\\Users\\caio.calisto\\OneDrive - EY\\Documentos\\GitHub\\GRCFinancialControl\\GRC.Shared\\GRC.Shared.Resources\\GRC.Shared.Resources.csproj": {
+    "C:\\FourTierManagementWinUI3\\GRC.Shared\\GRC.Shared.Resources\\GRC.Shared.Resources.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\caio.calisto\\OneDrive - EY\\Documentos\\GitHub\\GRCFinancialControl\\GRC.Shared\\GRC.Shared.Resources\\GRC.Shared.Resources.csproj",
+        "projectUniqueName": "C:\\FourTierManagementWinUI3\\GRC.Shared\\GRC.Shared.Resources\\GRC.Shared.Resources.csproj",
         "projectName": "GRC.Shared.Resources",
-        "projectPath": "C:\\Users\\caio.calisto\\OneDrive - EY\\Documentos\\GitHub\\GRCFinancialControl\\GRC.Shared\\GRC.Shared.Resources\\GRC.Shared.Resources.csproj",
+        "projectPath": "C:\\FourTierManagementWinUI3\\GRC.Shared\\GRC.Shared.Resources\\GRC.Shared.Resources.csproj",
         "packagesPath": "C:\\Users\\caio.calisto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\caio.calisto\\OneDrive - EY\\Documentos\\GitHub\\GRCFinancialControl\\GRC.Shared\\GRC.Shared.Resources\\obj\\",
+        "outputPath": "C:\\FourTierManagementWinUI3\\GRC.Shared\\GRC.Shared.Resources\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,8 +44,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -58,6 +57,11 @@
             "Avalonia.Controls.DataGrid": {
               "target": "Package",
               "version": "[11.3.8, )"
+            },
+            "Microsoft.VisualStudio.Threading.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[17.10.48, )"
             }
           },
           "imports": [
@@ -76,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.415/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

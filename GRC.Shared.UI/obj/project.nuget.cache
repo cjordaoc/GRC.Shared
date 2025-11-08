@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ESL4NLIJV7g=",
+  "dgSpecHash": "hBh6wkNkhgc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\caio.calisto\\OneDrive - EY\\Documentos\\GitHub\\GRCFinancialControl\\GRC.Shared\\GRC.Shared.UI\\GRC.Shared.UI.csproj",
+  "projectFilePath": "C:\\FourTierManagementWinUI3\\GRC.Shared\\GRC.Shared.UI\\GRC.Shared.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\caio.calisto\\.nuget\\packages\\avalonia\\11.3.8\\avalonia.11.3.8.nupkg.sha512",
     "C:\\Users\\caio.calisto\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.25547.20250602\\avalonia.angle.windows.natives.2.1.25547.20250602.nupkg.sha512",
@@ -23,6 +23,7 @@
     "C:\\Users\\caio.calisto\\.nuget\\packages\\harfbuzzsharp.nativeassets.webassembly\\8.3.1.1\\harfbuzzsharp.nativeassets.webassembly.8.3.1.1.nupkg.sha512",
     "C:\\Users\\caio.calisto\\.nuget\\packages\\harfbuzzsharp.nativeassets.win32\\8.3.1.1\\harfbuzzsharp.nativeassets.win32.8.3.1.1.nupkg.sha512",
     "C:\\Users\\caio.calisto\\.nuget\\packages\\microcom.runtime\\0.11.0\\microcom.runtime.0.11.0.nupkg.sha512",
+    "C:\\Users\\caio.calisto\\.nuget\\packages\\microsoft.visualstudio.threading.analyzers\\17.10.48\\microsoft.visualstudio.threading.analyzers.17.10.48.nupkg.sha512",
     "C:\\Users\\caio.calisto\\.nuget\\packages\\skiasharp\\2.88.9\\skiasharp.2.88.9.nupkg.sha512",
     "C:\\Users\\caio.calisto\\.nuget\\packages\\skiasharp.nativeassets.linux\\2.88.9\\skiasharp.nativeassets.linux.2.88.9.nupkg.sha512",
     "C:\\Users\\caio.calisto\\.nuget\\packages\\skiasharp.nativeassets.macos\\2.88.9\\skiasharp.nativeassets.macos.2.88.9.nupkg.sha512",
