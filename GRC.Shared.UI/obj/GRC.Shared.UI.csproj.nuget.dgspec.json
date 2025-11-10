@@ -73,7 +73,7 @@
             "Microsoft.VisualStudio.Threading.Analyzers": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[17.10.48, )"
+              "version": "[17.14.15, )"
             }
           },
           "imports": [

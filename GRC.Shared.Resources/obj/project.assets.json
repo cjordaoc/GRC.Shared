@@ -128,10 +128,10 @@
           "lib/net5.0/MicroCom.Runtime.dll": {}
         }
       },
-      "Microsoft.VisualStudio.Threading.Analyzers/17.10.48": {
+      "Microsoft.VisualStudio.Threading.Analyzers/17.14.15": {
         "type": "package",
         "build": {
-          "build/Microsoft.VisualStudio.Threading.Analyzers.targets": {}
+          "buildTransitive/Microsoft.VisualStudio.Threading.Analyzers.targets": {}
         }
       }
     }
@@ -375,10 +375,10 @@
         "microcom.runtime.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Threading.Analyzers/17.10.48": {
-      "sha512": "xwvwT91oqFjLgQykUp6y/JPYxz8LchbfJKrLVatfczWddXKng8DAo8RiiIodt+pRdsVXP9Ud02GtJoY7ifdXPQ==",
+    "Microsoft.VisualStudio.Threading.Analyzers/17.14.15": {
+      "sha512": "mXQPJsbuUD2ydq4/ffd8h8tSOFCXec+2xJOVNCvXjuMOq/+5EKHq3D2m2MC2+nUaXeFMSt66VS/J4HdKBixgcw==",
       "type": "package",
-      "path": "microsoft.visualstudio.threading.analyzers/17.10.48",
+      "path": "microsoft.visualstudio.threading.analyzers/17.14.15",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -418,12 +418,12 @@
         "analyzers/vb/tr/Microsoft.VisualStudio.Threading.Analyzers.CodeFixes.resources.dll",
         "analyzers/vb/zh-Hans/Microsoft.VisualStudio.Threading.Analyzers.CodeFixes.resources.dll",
         "analyzers/vb/zh-Hant/Microsoft.VisualStudio.Threading.Analyzers.CodeFixes.resources.dll",
-        "build/AdditionalFiles/vs-threading.LegacyThreadSwitchingMembers.txt",
-        "build/AdditionalFiles/vs-threading.MainThreadAssertingMethods.txt",
-        "build/AdditionalFiles/vs-threading.MainThreadSwitchingMethods.txt",
-        "build/AdditionalFiles/vs-threading.MembersRequiringMainThread.txt",
-        "build/Microsoft.VisualStudio.Threading.Analyzers.targets",
-        "microsoft.visualstudio.threading.analyzers.17.10.48.nupkg.sha512",
+        "buildTransitive/AdditionalFiles/vs-threading.LegacyThreadSwitchingMembers.txt",
+        "buildTransitive/AdditionalFiles/vs-threading.MainThreadAssertingMethods.txt",
+        "buildTransitive/AdditionalFiles/vs-threading.MainThreadSwitchingMethods.txt",
+        "buildTransitive/AdditionalFiles/vs-threading.MembersRequiringMainThread.txt",
+        "buildTransitive/Microsoft.VisualStudio.Threading.Analyzers.targets",
+        "microsoft.visualstudio.threading.analyzers.17.14.15.nupkg.sha512",
         "microsoft.visualstudio.threading.analyzers.nuspec",
         "tools/install.ps1",
         "tools/uninstall.ps1"
@@ -434,7 +434,7 @@
     "net8.0": [
       "Avalonia >= 11.3.8",
       "Avalonia.Controls.DataGrid >= 11.3.8",
-      "Microsoft.VisualStudio.Threading.Analyzers >= 17.10.48"
+      "Microsoft.VisualStudio.Threading.Analyzers >= 17.14.15"
     ]
   },
   "packageFolders": {
@@ -498,7 +498,7 @@
           "Microsoft.VisualStudio.Threading.Analyzers": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[17.10.48, )"
+            "version": "[17.14.15, )"
           }
         },
         "imports": [

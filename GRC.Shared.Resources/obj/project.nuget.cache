@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WG96wZ4ie+s=",
+  "dgSpecHash": "6tjmKJK3gtY=",
   "success": true,
   "projectFilePath": "C:\\FourTierManagementWinUI3\\GRC.Shared\\GRC.Shared.Resources\\GRC.Shared.Resources.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,7 @@
     "C:\\Users\\caio.calisto\\.nuget\\packages\\avalonia.controls.datagrid\\11.3.8\\avalonia.controls.datagrid.11.3.8.nupkg.sha512",
     "C:\\Users\\caio.calisto\\.nuget\\packages\\avalonia.remote.protocol\\11.3.8\\avalonia.remote.protocol.11.3.8.nupkg.sha512",
     "C:\\Users\\caio.calisto\\.nuget\\packages\\microcom.runtime\\0.11.0\\microcom.runtime.0.11.0.nupkg.sha512",
-    "C:\\Users\\caio.calisto\\.nuget\\packages\\microsoft.visualstudio.threading.analyzers\\17.10.48\\microsoft.visualstudio.threading.analyzers.17.10.48.nupkg.sha512"
+    "C:\\Users\\caio.calisto\\.nuget\\packages\\microsoft.visualstudio.threading.analyzers\\17.14.15\\microsoft.visualstudio.threading.analyzers.17.14.15.nupkg.sha512"
   ],
   "logs": []
 }

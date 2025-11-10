@@ -48,3 +48,26 @@ C:\Users\caio.calisto\OneDrive - EY\Documentos\GitHub\GRCFinancialControl\GRC.Sh
 C:\Users\caio.calisto\OneDrive - EY\Documentos\GitHub\GRCFinancialControl\GRC.Shared\GRC.Shared.Resources\obj\Debug\net8.0\GRC.Shared.Resources.xml
 C:\Users\caio.calisto\OneDrive - EY\Documentos\GitHub\GRCFinancialControl\GRC.Shared\GRC.Shared.Resources\obj\Debug\net8.0\GRC.Shared.Resources.pdb
 C:\Users\caio.calisto\OneDrive - EY\Documentos\GitHub\GRCFinancialControl\GRC.Shared\GRC.Shared.Resources\obj\Debug\net8.0\ref\GRC.Shared.Resources.dll
+C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.Resources\bin\Debug\net8.0\GRC.Shared.Resources.deps.json
+C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.Resources\bin\Debug\net8.0\GRC.Shared.Resources.dll
+C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.Resources\bin\Debug\net8.0\GRC.Shared.Resources.pdb
+C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.Resources\bin\Debug\net8.0\en-US\GRC.Shared.Resources.resources.dll
+C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.Resources\bin\Debug\net8.0\pt-BR\GRC.Shared.Resources.resources.dll
+C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.Resources\obj\Debug\net8.0\GRC.Shared.Resources.csproj.AssemblyReference.cache
+C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.Resources\obj\Debug\net8.0\Avalonia\Resources.Inputs.cache
+C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.Resources\obj\Debug\net8.0\Avalonia\resources
+C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.Resources\obj\Debug\net8.0\GRC.Shared.Resources.Localization.Strings.resources
+C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.Resources\obj\Debug\net8.0\GRC.Shared.Resources.Localization.Strings.en-US.resources
+C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.Resources\obj\Debug\net8.0\GRC.Shared.Resources.Localization.Strings.pt-BR.resources
+C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.Resources\obj\Debug\net8.0\GRC.Shared.Resources.csproj.GenerateResource.cache
+C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.Resources\obj\Debug\net8.0\GRC.Shared.Resources.GeneratedMSBuildEditorConfig.editorconfig
+C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.Resources\obj\Debug\net8.0\GRC.Shared.Resources.AssemblyInfoInputs.cache
+C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.Resources\obj\Debug\net8.0\GRC.Shared.Resources.AssemblyInfo.cs
+C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.Resources\obj\Debug\net8.0\GRC.Shared.Resources.csproj.CoreCompileInputs.cache
+C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.Resources\obj\Debug\net8.0\GRC.Shared.Resources.sourcelink.json
+C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.Resources\obj\Debug\net8.0\en-US\GRC.Shared.Resources.resources.dll
+C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.Resources\obj\Debug\net8.0\pt-BR\GRC.Shared.Resources.resources.dll
+C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.Resources\obj\Debug\net8.0\GRC.Shared.Resources.dll
+C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.Resources\obj\Debug\net8.0\refint\GRC.Shared.Resources.dll
+C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.Resources\obj\Debug\net8.0\GRC.Shared.Resources.pdb
+C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.Resources\obj\Debug\net8.0\ref\GRC.Shared.Resources.dll

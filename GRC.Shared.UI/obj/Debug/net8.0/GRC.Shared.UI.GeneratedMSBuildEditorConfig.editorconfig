@@ -24,16 +24,16 @@ build_property.ProjectDir = C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.UI
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/caio.calisto/.nuget/packages/microsoft.visualstudio.threading.analyzers/17.10.48/build/AdditionalFiles/vs-threading.LegacyThreadSwitchingMembers.txt]
+[C:/Users/caio.calisto/.nuget/packages/microsoft.visualstudio.threading.analyzers/17.14.15/buildTransitive/AdditionalFiles/vs-threading.LegacyThreadSwitchingMembers.txt]
 build_metadata.AdditionalFiles.SourceItemGroup = 
 
-[C:/Users/caio.calisto/.nuget/packages/microsoft.visualstudio.threading.analyzers/17.10.48/build/AdditionalFiles/vs-threading.MainThreadAssertingMethods.txt]
+[C:/Users/caio.calisto/.nuget/packages/microsoft.visualstudio.threading.analyzers/17.14.15/buildTransitive/AdditionalFiles/vs-threading.MainThreadAssertingMethods.txt]
 build_metadata.AdditionalFiles.SourceItemGroup = 
 
-[C:/Users/caio.calisto/.nuget/packages/microsoft.visualstudio.threading.analyzers/17.10.48/build/AdditionalFiles/vs-threading.MainThreadSwitchingMethods.txt]
+[C:/Users/caio.calisto/.nuget/packages/microsoft.visualstudio.threading.analyzers/17.14.15/buildTransitive/AdditionalFiles/vs-threading.MainThreadSwitchingMethods.txt]
 build_metadata.AdditionalFiles.SourceItemGroup = 
 
-[C:/Users/caio.calisto/.nuget/packages/microsoft.visualstudio.threading.analyzers/17.10.48/build/AdditionalFiles/vs-threading.MembersRequiringMainThread.txt]
+[C:/Users/caio.calisto/.nuget/packages/microsoft.visualstudio.threading.analyzers/17.14.15/buildTransitive/AdditionalFiles/vs-threading.MembersRequiringMainThread.txt]
 build_metadata.AdditionalFiles.SourceItemGroup = 
 
 [C:/FourTierManagementWinUI3/GRC.Shared/GRC.Shared.UI/Controls/SidebarHost.axaml]

@@ -17,7 +17,7 @@
     <Import Project="$(NuGetPackageRoot)avalonia\11.3.8\buildTransitive\Avalonia.props" Condition="Exists('$(NuGetPackageRoot)avalonia\11.3.8\buildTransitive\Avalonia.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_VisualStudio_Threading_Analyzers Condition=" '$(PkgMicrosoft_VisualStudio_Threading_Analyzers)' == '' ">C:\Users\caio.calisto\.nuget\packages\microsoft.visualstudio.threading.analyzers\17.10.48</PkgMicrosoft_VisualStudio_Threading_Analyzers>
+    <PkgMicrosoft_VisualStudio_Threading_Analyzers Condition=" '$(PkgMicrosoft_VisualStudio_Threading_Analyzers)' == '' ">C:\Users\caio.calisto\.nuget\packages\microsoft.visualstudio.threading.analyzers\17.14.15</PkgMicrosoft_VisualStudio_Threading_Analyzers>
     <PkgAvalonia_BuildServices Condition=" '$(PkgAvalonia_BuildServices)' == '' ">C:\Users\caio.calisto\.nuget\packages\avalonia.buildservices\11.3.1</PkgAvalonia_BuildServices>
     <PkgAvalonia Condition=" '$(PkgAvalonia)' == '' ">C:\Users\caio.calisto\.nuget\packages\avalonia\11.3.8</PkgAvalonia>
   </PropertyGroup>

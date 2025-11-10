@@ -9,7 +9,8 @@
       "GRC.Shared.Resources/1.0.0": {
         "dependencies": {
           "Avalonia": "11.3.8",
-          "Avalonia.Controls.DataGrid": "11.3.8"
+          "Avalonia.Controls.DataGrid": "11.3.8",
+          "Microsoft.VisualStudio.Threading.Analyzers": "17.14.15"
         },
         "runtime": {
           "GRC.Shared.Resources.dll": {}
@@ -103,7 +104,8 @@
             "fileVersion": "0.11.0.0"
           }
         }
-      }
+      },
+      "Microsoft.VisualStudio.Threading.Analyzers/17.14.15": {}
     }
   },
   "libraries": {
@@ -146,6 +148,13 @@
       "sha512": "sha512-MEnrZ3UIiH40hjzMDsxrTyi8dtqB5ziv3iBeeU4bXsL/7NLSal9F1lZKpK+tfBRnUoDSdtcW3KufE4yhATOMCA==",
       "path": "microcom.runtime/0.11.0",
       "hashPath": "microcom.runtime.0.11.0.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.Threading.Analyzers/17.14.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mXQPJsbuUD2ydq4/ffd8h8tSOFCXec+2xJOVNCvXjuMOq/+5EKHq3D2m2MC2+nUaXeFMSt66VS/J4HdKBixgcw==",
+      "path": "microsoft.visualstudio.threading.analyzers/17.14.15",
+      "hashPath": "microsoft.visualstudio.threading.analyzers.17.14.15.nupkg.sha512"
     }
   }
 }
