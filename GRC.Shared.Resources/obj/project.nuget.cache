@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "QkUVieSU2xs=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\caio.calisto\\OneDrive - EY\\Documentos\\GitHub\\GRCFinancialControl\\GRC.Shared\\GRC.Shared.Resources\\GRC.Shared.Resources.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\caio.calisto\\.nuget\\packages\\avalonia\\11.3.11\\avalonia.11.3.11.nupkg.sha512",
+    "C:\\Users\\caio.calisto\\.nuget\\packages\\avalonia.buildservices\\11.3.2\\avalonia.buildservices.11.3.2.nupkg.sha512",
+    "C:\\Users\\caio.calisto\\.nuget\\packages\\avalonia.controls.datagrid\\11.3.11\\avalonia.controls.datagrid.11.3.11.nupkg.sha512",
+    "C:\\Users\\caio.calisto\\.nuget\\packages\\avalonia.remote.protocol\\11.3.11\\avalonia.remote.protocol.11.3.11.nupkg.sha512",
+    "C:\\Users\\caio.calisto\\.nuget\\packages\\avalonia.themes.fluent\\11.3.11\\avalonia.themes.fluent.11.3.11.nupkg.sha512",
+    "C:\\Users\\caio.calisto\\.nuget\\packages\\microcom.runtime\\0.11.0\\microcom.runtime.0.11.0.nupkg.sha512",
+    "C:\\Users\\caio.calisto\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.2\\microsoft.extensions.configuration.10.0.2.nupkg.sha512",
+    "C:\\Users\\caio.calisto\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.2\\microsoft.extensions.configuration.abstractions.10.0.2.nupkg.sha512",
+    "C:\\Users\\caio.calisto\\.nuget\\packages\\microsoft.extensions.configuration.binder\\10.0.2\\microsoft.extensions.configuration.binder.10.0.2.nupkg.sha512",
+    "C:\\Users\\caio.calisto\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.2\\microsoft.extensions.dependencyinjection.10.0.2.nupkg.sha512",
+    "C:\\Users\\caio.calisto\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.2\\microsoft.extensions.dependencyinjection.abstractions.10.0.2.nupkg.sha512",
+    "C:\\Users\\caio.calisto\\.nuget\\packages\\microsoft.extensions.logging\\10.0.2\\microsoft.extensions.logging.10.0.2.nupkg.sha512",
+    "C:\\Users\\caio.calisto\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.2\\microsoft.extensions.logging.abstractions.10.0.2.nupkg.sha512",
+    "C:\\Users\\caio.calisto\\.nuget\\packages\\microsoft.extensions.logging.configuration\\10.0.2\\microsoft.extensions.logging.configuration.10.0.2.nupkg.sha512",
+    "C:\\Users\\caio.calisto\\.nuget\\packages\\microsoft.extensions.logging.console\\10.0.2\\microsoft.extensions.logging.console.10.0.2.nupkg.sha512",
+    "C:\\Users\\caio.calisto\\.nuget\\packages\\microsoft.extensions.options\\10.0.2\\microsoft.extensions.options.10.0.2.nupkg.sha512",
+    "C:\\Users\\caio.calisto\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\10.0.2\\microsoft.extensions.options.configurationextensions.10.0.2.nupkg.sha512",
+    "C:\\Users\\caio.calisto\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.2\\microsoft.extensions.primitives.10.0.2.nupkg.sha512",
+    "C:\\Users\\caio.calisto\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.23\\microsoft.net.illink.tasks.8.0.23.nupkg.sha512",
+    "C:\\Users\\caio.calisto\\.nuget\\packages\\system.diagnostics.diagnosticsource\\10.0.2\\system.diagnostics.diagnosticsource.10.0.2.nupkg.sha512",
+    "C:\\Users\\caio.calisto\\.nuget\\packages\\system.io.pipelines\\10.0.2\\system.io.pipelines.10.0.2.nupkg.sha512",
+    "C:\\Users\\caio.calisto\\.nuget\\packages\\system.text.encodings.web\\10.0.2\\system.text.encodings.web.10.0.2.nupkg.sha512",
+    "C:\\Users\\caio.calisto\\.nuget\\packages\\system.text.json\\10.0.2\\system.text.json.10.0.2.nupkg.sha512",
+    "C:\\Users\\caio.calisto\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\8.0.23\\microsoft.netcore.app.crossgen2.win-x64.8.0.23.nupkg.sha512"
+  ],
+  "logs": []
+}
