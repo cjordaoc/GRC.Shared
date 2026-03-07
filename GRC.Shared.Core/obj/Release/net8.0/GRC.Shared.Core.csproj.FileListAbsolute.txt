@@ -1,0 +1,14 @@
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.Core/obj/Release/net8.0/GRC.Shared.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.Core/obj/Release/net8.0/GRC.Shared.Core.AssemblyInfoInputs.cache
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.Core/obj/Release/net8.0/GRC.Shared.Core.AssemblyInfo.cs
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.Core/obj/Release/net8.0/GRC.Shared.Core.csproj.CoreCompileInputs.cache
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.Core/obj/Release/net8.0/GRC.Shared.Core.sourcelink.json
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.Core/bin/Release/net8.0/GRC.Shared.Core.deps.json
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.Core/bin/Release/net8.0/GRC.Shared.Core.dll
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.Core/bin/Release/net8.0/GRC.Shared.Core.pdb
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.Core/bin/Release/net8.0/GRC.Shared.Core.xml
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.Core/obj/Release/net8.0/GRC.Shared.Core.dll
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.Core/obj/Release/net8.0/refint/GRC.Shared.Core.dll
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.Core/obj/Release/net8.0/GRC.Shared.Core.xml
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.Core/obj/Release/net8.0/GRC.Shared.Core.pdb
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.Core/obj/Release/net8.0/ref/GRC.Shared.Core.dll

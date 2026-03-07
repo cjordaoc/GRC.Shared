@@ -1,0 +1,27 @@
+using System;
+using GRC.Shared.Core.Models.Core;
+
+namespace GRC.Shared.Core.Models.Financial;
+
+public class ActualsEntry
+{
+	public int Id { get; set; }
+
+	public int EngagementId { get; set; }
+
+	public Engagement Engagement { get; set; }
+
+	public DateTime Date { get; set; }
+
+	public decimal Hours { get; set; }
+
+	public string ImportBatchId { get; set; } = string.Empty;
+
+	public int? PapdId { get; set; }
+
+	public Papd? Papd { get; set; }
+
+	public int ClosingPeriodId { get; set; }
+
+	public ClosingPeriod ClosingPeriod { get; set; }
+}

@@ -422,10 +422,10 @@
           "lib/net5.0/MicroCom.Runtime.dll": {}
         }
       },
-      "Microsoft.VisualStudio.Threading.Analyzers/17.14.15": {
+      "Microsoft.NET.ILLink.Tasks/8.0.24": {
         "type": "package",
         "build": {
-          "buildTransitive/Microsoft.VisualStudio.Threading.Analyzers.targets": {}
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "SkiaSharp/2.88.9": {
@@ -552,6 +552,16 @@
         },
         "runtime": {
           "lib/net8.0/Tmds.DBus.Protocol.dll": {}
+        }
+      },
+      "GRC.Shared.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/GRC.Shared.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GRC.Shared.Core.dll": {}
         }
       }
     }
@@ -1144,58 +1154,55 @@
         "microcom.runtime.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Threading.Analyzers/17.14.15": {
-      "sha512": "mXQPJsbuUD2ydq4/ffd8h8tSOFCXec+2xJOVNCvXjuMOq/+5EKHq3D2m2MC2+nUaXeFMSt66VS/J4HdKBixgcw==",
+    "Microsoft.NET.ILLink.Tasks/8.0.24": {
+      "sha512": "1gnadp//+DoGJvV4AFdzPqYPxkypaWYjYMCr7KAacV0iadsHz1nU+rrkoxBCna4FCmeKH49CisEwa7g94/MbEg==",
       "type": "package",
-      "path": "microsoft.visualstudio.threading.analyzers/17.14.15",
+      "path": "microsoft.net.illink.tasks/8.0.24",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "NOTICE",
-        "PackageIcon.png",
-        "README.md",
-        "analyzers/cs/Microsoft.VisualStudio.Threading.Analyzers.CSharp.dll",
-        "analyzers/cs/Microsoft.VisualStudio.Threading.Analyzers.CodeFixes.dll",
-        "analyzers/cs/Microsoft.VisualStudio.Threading.Analyzers.dll",
-        "analyzers/cs/cs/Microsoft.VisualStudio.Threading.Analyzers.CodeFixes.resources.dll",
-        "analyzers/cs/de/Microsoft.VisualStudio.Threading.Analyzers.CodeFixes.resources.dll",
-        "analyzers/cs/es/Microsoft.VisualStudio.Threading.Analyzers.CodeFixes.resources.dll",
-        "analyzers/cs/fr/Microsoft.VisualStudio.Threading.Analyzers.CodeFixes.resources.dll",
-        "analyzers/cs/it/Microsoft.VisualStudio.Threading.Analyzers.CodeFixes.resources.dll",
-        "analyzers/cs/ja/Microsoft.VisualStudio.Threading.Analyzers.CodeFixes.resources.dll",
-        "analyzers/cs/ko/Microsoft.VisualStudio.Threading.Analyzers.CodeFixes.resources.dll",
-        "analyzers/cs/pl/Microsoft.VisualStudio.Threading.Analyzers.CodeFixes.resources.dll",
-        "analyzers/cs/pt-BR/Microsoft.VisualStudio.Threading.Analyzers.CodeFixes.resources.dll",
-        "analyzers/cs/ru/Microsoft.VisualStudio.Threading.Analyzers.CodeFixes.resources.dll",
-        "analyzers/cs/tr/Microsoft.VisualStudio.Threading.Analyzers.CodeFixes.resources.dll",
-        "analyzers/cs/zh-Hans/Microsoft.VisualStudio.Threading.Analyzers.CodeFixes.resources.dll",
-        "analyzers/cs/zh-Hant/Microsoft.VisualStudio.Threading.Analyzers.CodeFixes.resources.dll",
-        "analyzers/vb/Microsoft.VisualStudio.Threading.Analyzers.CodeFixes.dll",
-        "analyzers/vb/Microsoft.VisualStudio.Threading.Analyzers.VisualBasic.dll",
-        "analyzers/vb/Microsoft.VisualStudio.Threading.Analyzers.dll",
-        "analyzers/vb/cs/Microsoft.VisualStudio.Threading.Analyzers.CodeFixes.resources.dll",
-        "analyzers/vb/de/Microsoft.VisualStudio.Threading.Analyzers.CodeFixes.resources.dll",
-        "analyzers/vb/es/Microsoft.VisualStudio.Threading.Analyzers.CodeFixes.resources.dll",
-        "analyzers/vb/fr/Microsoft.VisualStudio.Threading.Analyzers.CodeFixes.resources.dll",
-        "analyzers/vb/it/Microsoft.VisualStudio.Threading.Analyzers.CodeFixes.resources.dll",
-        "analyzers/vb/ja/Microsoft.VisualStudio.Threading.Analyzers.CodeFixes.resources.dll",
-        "analyzers/vb/ko/Microsoft.VisualStudio.Threading.Analyzers.CodeFixes.resources.dll",
-        "analyzers/vb/pl/Microsoft.VisualStudio.Threading.Analyzers.CodeFixes.resources.dll",
-        "analyzers/vb/pt-BR/Microsoft.VisualStudio.Threading.Analyzers.CodeFixes.resources.dll",
-        "analyzers/vb/ru/Microsoft.VisualStudio.Threading.Analyzers.CodeFixes.resources.dll",
-        "analyzers/vb/tr/Microsoft.VisualStudio.Threading.Analyzers.CodeFixes.resources.dll",
-        "analyzers/vb/zh-Hans/Microsoft.VisualStudio.Threading.Analyzers.CodeFixes.resources.dll",
-        "analyzers/vb/zh-Hant/Microsoft.VisualStudio.Threading.Analyzers.CodeFixes.resources.dll",
-        "buildTransitive/AdditionalFiles/vs-threading.LegacyThreadSwitchingMembers.txt",
-        "buildTransitive/AdditionalFiles/vs-threading.MainThreadAssertingMethods.txt",
-        "buildTransitive/AdditionalFiles/vs-threading.MainThreadSwitchingMethods.txt",
-        "buildTransitive/AdditionalFiles/vs-threading.MembersRequiringMainThread.txt",
-        "buildTransitive/Microsoft.VisualStudio.Threading.Analyzers.targets",
-        "microsoft.visualstudio.threading.analyzers.17.14.15.nupkg.sha512",
-        "microsoft.visualstudio.threading.analyzers.nuspec",
-        "tools/install.ps1",
-        "tools/uninstall.ps1"
+        "Icon.png",
+        "LICENSE.TXT",
+        "Sdk/Sdk.props",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/cs/ILLink.CodeFixProvider.dll",
+        "analyzers/dotnet/cs/ILLink.RoslynAnalyzer.dll",
+        "build/Microsoft.NET.ILLink.Analyzers.props",
+        "build/Microsoft.NET.ILLink.Tasks.props",
+        "build/Microsoft.NET.ILLink.targets",
+        "microsoft.net.illink.tasks.8.0.24.nupkg.sha512",
+        "microsoft.net.illink.tasks.nuspec",
+        "tools/net472/ILLink.Tasks.dll",
+        "tools/net472/ILLink.Tasks.dll.config",
+        "tools/net472/Mono.Cecil.Mdb.dll",
+        "tools/net472/Mono.Cecil.Pdb.dll",
+        "tools/net472/Mono.Cecil.Rocks.dll",
+        "tools/net472/Mono.Cecil.dll",
+        "tools/net472/Sdk/Sdk.props",
+        "tools/net472/System.Buffers.dll",
+        "tools/net472/System.Collections.Immutable.dll",
+        "tools/net472/System.Memory.dll",
+        "tools/net472/System.Numerics.Vectors.dll",
+        "tools/net472/System.Reflection.Metadata.dll",
+        "tools/net472/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/net472/build/Microsoft.NET.ILLink.Analyzers.props",
+        "tools/net472/build/Microsoft.NET.ILLink.Tasks.props",
+        "tools/net472/build/Microsoft.NET.ILLink.targets",
+        "tools/net8.0/ILLink.Tasks.deps.json",
+        "tools/net8.0/ILLink.Tasks.dll",
+        "tools/net8.0/Mono.Cecil.Mdb.dll",
+        "tools/net8.0/Mono.Cecil.Pdb.dll",
+        "tools/net8.0/Mono.Cecil.Rocks.dll",
+        "tools/net8.0/Mono.Cecil.dll",
+        "tools/net8.0/Sdk/Sdk.props",
+        "tools/net8.0/build/Microsoft.NET.ILLink.Analyzers.props",
+        "tools/net8.0/build/Microsoft.NET.ILLink.Tasks.props",
+        "tools/net8.0/build/Microsoft.NET.ILLink.targets",
+        "tools/net8.0/illink.deps.json",
+        "tools/net8.0/illink.dll",
+        "tools/net8.0/illink.runtimeconfig.json",
+        "useSharedDesignerContext.txt"
       ]
     },
     "SkiaSharp/2.88.9": {
@@ -1419,6 +1426,11 @@
         "tmds.dbus.protocol.0.21.2.nupkg.sha512",
         "tmds.dbus.protocol.nuspec"
       ]
+    },
+    "GRC.Shared.Core/1.0.0": {
+      "type": "project",
+      "path": "../GRC.Shared.Core/GRC.Shared.Core.csproj",
+      "msbuildProject": "../GRC.Shared.Core/GRC.Shared.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1428,41 +1440,39 @@
       "Avalonia.Desktop >= 11.3.8",
       "Avalonia.Themes.Fluent >= 11.3.8",
       "CommunityToolkit.Mvvm >= 8.4.0",
-      "Microsoft.VisualStudio.Threading.Analyzers >= 17.14.15"
+      "GRC.Shared.Core >= 1.0.0",
+      "Microsoft.NET.ILLink.Tasks >= 8.0.24"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\caio.calisto\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/home/cjcalisto/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\FourTierManagementWinUI3\\GRC.Shared\\GRC.Shared.UI\\GRC.Shared.UI.csproj",
+      "projectUniqueName": "/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/GRC.Shared.UI.csproj",
       "projectName": "GRC.Shared.UI",
-      "projectPath": "C:\\FourTierManagementWinUI3\\GRC.Shared\\GRC.Shared.UI\\GRC.Shared.UI.csproj",
-      "packagesPath": "C:\\Users\\caio.calisto\\.nuget\\packages\\",
-      "outputPath": "C:\\FourTierManagementWinUI3\\GRC.Shared\\GRC.Shared.UI\\obj\\",
+      "projectPath": "/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/GRC.Shared.UI.csproj",
+      "packagesPath": "/home/cjcalisto/.nuget/packages/",
+      "outputPath": "/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\caio.calisto\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/cjcalisto/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.Core/GRC.Shared.Core.csproj": {
+              "projectPath": "/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.Core/GRC.Shared.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1470,11 +1480,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1501,10 +1506,11 @@
             "target": "Package",
             "version": "[8.4.0, )"
           },
-          "Microsoft.VisualStudio.Threading.Analyzers": {
+          "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[17.14.15, )"
+            "version": "[8.0.24, )",
+            "autoReferenced": true
           }
         },
         "imports": [
@@ -1518,12 +1524,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Crossgen2.linux-x64",
+            "version": "[8.0.24, 8.0.24]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.415/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.124/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

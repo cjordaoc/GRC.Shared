@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GRC.Shared.Core</name>
+    </assembly>
+    <members>
+        <member name="T:GRC.Shared.Core.Services.ITabDelimitedExportService">
+            <summary>
+            Exports tabular data as tab-delimited text files.
+            </summary>
+        </member>
+        <member name="M:GRC.Shared.Core.Services.ITabDelimitedExportService.ExportAsync(System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{System.String}})">
+            <summary>
+            Writes header and detail rows to a tab-delimited file at the specified path.
+            </summary>
+        </member>
+    </members>
+</doc>

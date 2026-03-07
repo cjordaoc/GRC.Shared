@@ -1,6 +1,8 @@
 <ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <!-- EY Palette -->
   <Color x:Key="ColorPrimary">#FFD200</Color>
+  <Color x:Key="ColorOnPrimary">#FF2E2E38</Color>
+  <Color x:Key="ColorPrimaryContainer">#FFE6BE00</Color>
   <Color x:Key="ColorSecondary">#FF2E2E38</Color>
   <Color x:Key="ColorSuccess">#FF4CAF50</Color>
   <Color x:Key="ColorWarning">#FFFFC107</Color>
@@ -21,6 +23,8 @@
 
   <!-- Brushes -->
   <SolidColorBrush x:Key="BrushPrimary" Color="{StaticResource ColorPrimary}" />
+  <SolidColorBrush x:Key="BrushOnPrimary" Color="{StaticResource ColorOnPrimary}" />
+  <SolidColorBrush x:Key="BrushPrimaryContainer" Color="{StaticResource ColorPrimaryContainer}" />
   <SolidColorBrush x:Key="BrushSecondary" Color="{StaticResource ColorSecondary}" />
   <SolidColorBrush x:Key="BrushSuccess" Color="{StaticResource ColorSuccess}" />
   <SolidColorBrush x:Key="BrushSuccessDark" Color="{StaticResource ColorSuccessDark}" />

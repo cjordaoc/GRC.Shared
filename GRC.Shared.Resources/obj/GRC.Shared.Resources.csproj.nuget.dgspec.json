@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\FourTierManagementWinUI3\\GRC.Shared\\GRC.Shared.Resources\\GRC.Shared.Resources.csproj": {}
+    "/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.Resources/GRC.Shared.Resources.csproj": {}
   },
   "projects": {
-    "C:\\FourTierManagementWinUI3\\GRC.Shared\\GRC.Shared.Resources\\GRC.Shared.Resources.csproj": {
+    "/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.Resources/GRC.Shared.Resources.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FourTierManagementWinUI3\\GRC.Shared\\GRC.Shared.Resources\\GRC.Shared.Resources.csproj",
+        "projectUniqueName": "/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.Resources/GRC.Shared.Resources.csproj",
         "projectName": "GRC.Shared.Resources",
-        "projectPath": "C:\\FourTierManagementWinUI3\\GRC.Shared\\GRC.Shared.Resources\\GRC.Shared.Resources.csproj",
-        "packagesPath": "C:\\Users\\caio.calisto\\.nuget\\packages\\",
-        "outputPath": "C:\\FourTierManagementWinUI3\\GRC.Shared\\GRC.Shared.Resources\\obj\\",
+        "projectPath": "/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.Resources/GRC.Shared.Resources.csproj",
+        "packagesPath": "/home/cjcalisto/.nuget/packages/",
+        "outputPath": "/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.Resources/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\caio.calisto\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/cjcalisto/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,11 +33,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -58,10 +47,11 @@
               "target": "Package",
               "version": "[11.3.8, )"
             },
-            "Microsoft.VisualStudio.Threading.Analyzers": {
+            "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[17.14.15, )"
+              "version": "[8.0.24, )",
+              "autoReferenced": true
             }
           },
           "imports": [
@@ -75,12 +65,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Crossgen2.linux-x64",
+              "version": "[8.0.24, 8.0.24]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.415/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.124/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
