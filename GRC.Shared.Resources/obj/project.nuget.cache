@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UaJL3cD04OdM39jBstSWhBFlfSBWfhGj0TT82dSSIqm/+8AIV0rPg5OPGc95opgrarJPQ8FcwQxgTXRMgPhSFw==",
+  "dgSpecHash": "JU3xKAniwFo=",
   "success": true,
   "projectFilePath": "/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.Resources/GRC.Shared.Resources.csproj",
   "expectedPackageFiles": [
@@ -9,8 +9,10 @@
     "/home/cjcalisto/.nuget/packages/avalonia.controls.datagrid/11.3.8/avalonia.controls.datagrid.11.3.8.nupkg.sha512",
     "/home/cjcalisto/.nuget/packages/avalonia.remote.protocol/11.3.8/avalonia.remote.protocol.11.3.8.nupkg.sha512",
     "/home/cjcalisto/.nuget/packages/microcom.runtime/0.11.0/microcom.runtime.0.11.0.nupkg.sha512",
-    "/home/cjcalisto/.nuget/packages/microsoft.net.illink.tasks/8.0.24/microsoft.net.illink.tasks.8.0.24.nupkg.sha512",
-    "/home/cjcalisto/.nuget/packages/microsoft.netcore.app.crossgen2.linux-x64/8.0.24/microsoft.netcore.app.crossgen2.linux-x64.8.0.24.nupkg.sha512"
+    "/home/cjcalisto/.nuget/packages/microsoft.net.illink.tasks/8.0.25/microsoft.net.illink.tasks.8.0.25.nupkg.sha512",
+    "/home/cjcalisto/.nuget/packages/microsoft.netcore.app.ref/8.0.25/microsoft.netcore.app.ref.8.0.25.nupkg.sha512",
+    "/home/cjcalisto/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.25/microsoft.aspnetcore.app.ref.8.0.25.nupkg.sha512",
+    "/home/cjcalisto/.nuget/packages/microsoft.netcore.app.crossgen2.linux-x64/8.0.25/microsoft.netcore.app.crossgen2.linux-x64.8.0.25.nupkg.sha512"
   ],
   "logs": []
 }

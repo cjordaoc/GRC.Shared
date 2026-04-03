@@ -96,10 +96,7 @@
   <data name="FINC_Admin_ManagerAssignments_Toast_DeleteSuccess" xml:space="preserve">
     <value>Atribuição removida: {0} não gerencia mais {1}.</value>
   </data>
-  <data name="FINC_Admin_ManagerAssignments_Toast_OperationFailed" xml:space="preserve">
-    <value>Falha na operação de atribuição de gerente: {0}.</value>
-  </data>
-  <data name="FINC_Admin_ManagerAssignments_Toast_SaveSuccess" xml:space="preserve">
+<data name="FINC_Admin_ManagerAssignments_Toast_SaveSuccess" xml:space="preserve">
     <value>Atribuição salva: {0} agora gerencia {1}.</value>
   </data>
   <data name="FINC_Admin_Managers_Placeholder_Email" xml:space="preserve">
@@ -141,10 +138,7 @@
   <data name="FINC_Admin_PapdAssignments_Toast_Exists" xml:space="preserve">
     <value>Atribuição já existente para {0} em {1}.</value>
   </data>
-  <data name="FINC_Admin_PapdAssignments_Toast_OperationFailed" xml:space="preserve">
-    <value>Falha na operação de atribuição de PAPD: {0}.</value>
-  </data>
-  <data name="FINC_Admin_PapdAssignments_Toast_SaveSuccess" xml:space="preserve">
+<data name="FINC_Admin_PapdAssignments_Toast_SaveSuccess" xml:space="preserve">
     <value>Atribuição salva: {0} vinculado a {1}.</value>
   </data>
   <data name="FINC_Admin_Papds_Placeholder_Level" xml:space="preserve">
@@ -213,20 +207,8 @@
   <data name="FINC_ClosingPeriods_Status_ToggleFailed" xml:space="preserve">
     <value>Não foi possível alterar o bloqueio: {0}</value>
   </data>
-  <data name="FINC_ClosingPeriods_Toast_DeleteSuccess" xml:space="preserve">
-    <value>Período de fechamento {0} excluído.</value>
-  </data>
   <data name="FINC_ClosingPeriods_Toast_Locked" xml:space="preserve">
     <value>Período de fechamento {0} bloqueado com sucesso.</value>
-  </data>
-  <data name="FINC_ClosingPeriods_Toast_OperationFailed" xml:space="preserve">
-    <value>Não foi possível concluir a operação: {0}</value>
-  </data>
-  <data name="FINC_ClosingPeriods_Toast_ReverseSuccess" xml:space="preserve">
-    <value>Dados financeiros de {0} revertidos.</value>
-  </data>
-  <data name="FINC_ClosingPeriods_Toast_SaveSuccess" xml:space="preserve">
-    <value>Período de fechamento salvo.</value>
   </data>
   <data name="FINC_ClosingPeriods_Toast_ToggleFailed" xml:space="preserve">
     <value>Não foi possível atualizar o bloqueio do período.</value>
@@ -249,35 +231,26 @@
   <data name="FINC_ClosingPeriods_Validation_NoFiscalYears" xml:space="preserve">
     <value>Nenhum ano fiscal disponível. Desbloqueie ou crie um ano fiscal antes de atualizar os períodos de fechamento.</value>
   </data>
-  <data name="FINC_Customers_Toast_DeleteSuccess" xml:space="preserve">
-    <value>Cliente {0} excluído.</value>
+  <data name="FINC_Common_Toast_DeleteDataSuccess" xml:space="preserve">
+    <value>Dados de {0} excluídos com sucesso</value>
   </data>
-  <data name="FINC_Customers_Toast_OperationFailed" xml:space="preserve">
-    <value>Não foi possível concluir a operação: {0}</value>
+  <data name="FINC_Common_Toast_DeleteSuccess" xml:space="preserve">
+    <value>{0} excluído com sucesso</value>
   </data>
-  <data name="FINC_Customers_Toast_ReverseSuccess" xml:space="preserve">
-    <value>Dados do cliente {0} revertidos.</value>
+  <data name="FINC_Common_Toast_LoadError" xml:space="preserve">
+    <value>Falha ao carregar {0}: {1}</value>
   </data>
-  <data name="FINC_Customers_Toast_SaveSuccess" xml:space="preserve">
-    <value>Cliente salvo.</value>
+  <data name="FINC_Common_Toast_OperationFailed" xml:space="preserve">
+    <value>Operação falhou: {0}</value>
+  </data>
+  <data name="FINC_Common_Toast_SaveSuccess" xml:space="preserve">
+    <value>{0} salvo com sucesso</value>
   </data>
   <data name="FINC_Dialog_DeleteData_Message" xml:space="preserve">
     <value>Tem certeza de que deseja excluir todos os dados de {0}? Esta ação não pode ser desfeita.</value>
   </data>
   <data name="FINC_Dialog_DeleteData_Title" xml:space="preserve">
     <value>Excluir dados</value>
-  </data>
-  <data name="FINC_Engagements_Toast_DeleteSuccess" xml:space="preserve">
-    <value>Engajamento {0} excluído.</value>
-  </data>
-  <data name="FINC_Engagements_Toast_OperationFailed" xml:space="preserve">
-    <value>Não foi possível concluir a operação: {0}</value>
-  </data>
-  <data name="FINC_Engagements_Toast_ReverseSuccess" xml:space="preserve">
-    <value>Dados do engajamento {0} revertidos.</value>
-  </data>
-  <data name="FINC_Engagements_Toast_SaveSuccess" xml:space="preserve">
-    <value>Engajamento salvo.</value>
   </data>
   <data name="FINC_FiscalYears_Dialog_Close_Message" xml:space="preserve">
     <value>Encerrar o ano fiscal '{0}' irá bloqueá-lo e promover o próximo ano fiscal como padrão. Continuar?</value>
@@ -302,18 +275,6 @@
   </data>
   <data name="FINC_FiscalYears_Status_Unlocked" xml:space="preserve">
     <value>O ano fiscal '{0}' foi desbloqueado por {1} em {2:G}.</value>
-  </data>
-  <data name="FINC_FiscalYears_Toast_DeleteDataSuccess" xml:space="preserve">
-    <value>Dados do ano fiscal {0} excluídos com sucesso.</value>
-  </data>
-  <data name="FINC_FiscalYears_Toast_DeleteSuccess" xml:space="preserve">
-    <value>Ano fiscal {0} excluído com sucesso.</value>
-  </data>
-  <data name="FINC_FiscalYears_Toast_OperationFailed" xml:space="preserve">
-    <value>Falha na operação com ano fiscal: {0}.</value>
-  </data>
-  <data name="FINC_FiscalYears_Toast_SaveSuccess" xml:space="preserve">
-    <value>Ano fiscal {0} salvo com sucesso.</value>
   </data>
   <data name="FINC_FiscalYears_Validation_EndDateAfterStart" xml:space="preserve">
     <value>A data de término deve ser igual ou posterior à data de início.</value>
@@ -417,15 +378,6 @@
   <data name="FINC_Import_Panel_FinancialData" xml:space="preserve">
     <value>Dados Financeiros</value>
   </data>
-  <data name="FINC_Managers_Toast_DeleteSuccess" xml:space="preserve">
-    <value>Gerente {0} removido com sucesso.</value>
-  </data>
-  <data name="FINC_Managers_Toast_OperationFailed" xml:space="preserve">
-    <value>Falha na operação com gerente: {0}.</value>
-  </data>
-  <data name="FINC_Managers_Toast_SaveSuccess" xml:space="preserve">
-    <value>Gerente {0} salvo com sucesso.</value>
-  </data>
   <data name="FINC_MasterData_RankMappings_Columns_CreatedAt" xml:space="preserve">
     <value>Criado em</value>
   </data>
@@ -509,27 +461,6 @@
   </data>
   <data name="FINC_Navigation_Tasks" xml:space="preserve">
     <value>Tasks</value>
-  </data>
-  <data name="FINC_Papds_Toast_DeleteDataSuccess" xml:space="preserve">
-    <value>Dados históricos de {0} excluídos com sucesso.</value>
-  </data>
-  <data name="FINC_Papds_Toast_DeleteSuccess" xml:space="preserve">
-    <value>PAPD {0} removido com sucesso.</value>
-  </data>
-  <data name="FINC_Papds_Toast_OperationFailed" xml:space="preserve">
-    <value>Falha na operação com PAPD: {0}.</value>
-  </data>
-  <data name="FINC_Papds_Toast_SaveSuccess" xml:space="preserve">
-    <value>PAPD {0} salvo com sucesso.</value>
-  </data>
-  <data name="FINC_RankMappings_Toast_DeleteSuccess" xml:space="preserve">
-    <value>Mapeamento de cargo {0} excluído com sucesso.</value>
-  </data>
-  <data name="FINC_RankMappings_Toast_OperationFailed" xml:space="preserve">
-    <value>Falha na operação com mapeamento de cargo: {0}.</value>
-  </data>
-  <data name="FINC_RankMappings_Toast_SaveSuccess" xml:space="preserve">
-    <value>Mapeamento de cargo {0} salvo com sucesso.</value>
   </data>
   <data name="FINC_Reports_Button_OpenBrowser" xml:space="preserve">
     <value>Abrir no navegador</value>

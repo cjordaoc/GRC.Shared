@@ -128,7 +128,7 @@
           "lib/net5.0/MicroCom.Runtime.dll": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.24": {
+      "Microsoft.NET.ILLink.Tasks/8.0.25": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -375,10 +375,10 @@
         "microcom.runtime.nuspec"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/8.0.24": {
-      "sha512": "1gnadp//+DoGJvV4AFdzPqYPxkypaWYjYMCr7KAacV0iadsHz1nU+rrkoxBCna4FCmeKH49CisEwa7g94/MbEg==",
+    "Microsoft.NET.ILLink.Tasks/8.0.25": {
+      "sha512": "sqX4nmBft05ivqKvUT4nxaN8rT3apCLt9SWFkfRrQPwra1zPwFknQAw1lleuMCKOCLvVmOWwrC2iPSm9RiXZUg==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/8.0.24",
+      "path": "microsoft.net.illink.tasks/8.0.25",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -392,7 +392,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.8.0.24.nupkg.sha512",
+        "microsoft.net.illink.tasks.8.0.25.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -431,7 +431,7 @@
     "net8.0": [
       "Avalonia >= 11.3.8",
       "Avalonia.Controls.DataGrid >= 11.3.8",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.24"
+      "Microsoft.NET.ILLink.Tasks >= 8.0.25"
     ]
   },
   "packageFolders": {
@@ -466,7 +466,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -483,7 +489,7 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.24, )",
+            "version": "[8.0.25, )",
             "autoReferenced": true
           }
         },
@@ -500,8 +506,16 @@
         "warn": true,
         "downloadDependencies": [
           {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.25, 8.0.25]"
+          },
+          {
             "name": "Microsoft.NETCore.App.Crossgen2.linux-x64",
-            "version": "[8.0.24, 8.0.24]"
+            "version": "[8.0.25, 8.0.25]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.25, 8.0.25]"
           }
         ],
         "frameworkReferences": {
@@ -509,7 +523,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.124/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/var/snap/dotnet/common/dotnet/sdk/10.0.105/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -78,8 +78,6 @@ public static class Strings
 
     public static string FINC_Admin_ManagerAssignments_Toast_DeleteSuccess => ResourceManager.GetString("FINC_Admin_ManagerAssignments_Toast_DeleteSuccess", resourceCulture) ?? "FINC_Admin_ManagerAssignments_Toast_DeleteSuccess";
 
-    public static string FINC_Admin_ManagerAssignments_Toast_OperationFailed => ResourceManager.GetString("FINC_Admin_ManagerAssignments_Toast_OperationFailed", resourceCulture) ?? "FINC_Admin_ManagerAssignments_Toast_OperationFailed";
-
     public static string FINC_Admin_ManagerAssignments_Toast_SaveSuccess => ResourceManager.GetString("FINC_Admin_ManagerAssignments_Toast_SaveSuccess", resourceCulture) ?? "FINC_Admin_ManagerAssignments_Toast_SaveSuccess";
 
     public static string FINC_Admin_Managers_Placeholder_Email => ResourceManager.GetString("FINC_Admin_Managers_Placeholder_Email", resourceCulture) ?? "FINC_Admin_Managers_Placeholder_Email";
@@ -107,8 +105,6 @@ public static class Strings
     public static string FINC_Admin_PapdAssignments_Toast_DeleteSuccess => ResourceManager.GetString("FINC_Admin_PapdAssignments_Toast_DeleteSuccess", resourceCulture) ?? "FINC_Admin_PapdAssignments_Toast_DeleteSuccess";
 
     public static string FINC_Admin_PapdAssignments_Toast_Exists => ResourceManager.GetString("FINC_Admin_PapdAssignments_Toast_Exists", resourceCulture) ?? "FINC_Admin_PapdAssignments_Toast_Exists";
-
-    public static string FINC_Admin_PapdAssignments_Toast_OperationFailed => ResourceManager.GetString("FINC_Admin_PapdAssignments_Toast_OperationFailed", resourceCulture) ?? "FINC_Admin_PapdAssignments_Toast_OperationFailed";
 
     public static string FINC_Admin_PapdAssignments_Toast_SaveSuccess => ResourceManager.GetString("FINC_Admin_PapdAssignments_Toast_SaveSuccess", resourceCulture) ?? "FINC_Admin_PapdAssignments_Toast_SaveSuccess";
 
@@ -140,6 +136,16 @@ public static class Strings
 
     public static string FINC_Button_View => ResourceManager.GetString("FINC_Button_View", resourceCulture) ?? "FINC_Button_View";
 
+    public static string FINC_Common_Toast_DeleteDataSuccess => ResourceManager.GetString("FINC_Common_Toast_DeleteDataSuccess", resourceCulture) ?? "FINC_Common_Toast_DeleteDataSuccess";
+
+    public static string FINC_Common_Toast_DeleteSuccess => ResourceManager.GetString("FINC_Common_Toast_DeleteSuccess", resourceCulture) ?? "FINC_Common_Toast_DeleteSuccess";
+
+    public static string FINC_Common_Toast_LoadError => ResourceManager.GetString("FINC_Common_Toast_LoadError", resourceCulture) ?? "FINC_Common_Toast_LoadError";
+
+    public static string FINC_Common_Toast_OperationFailed => ResourceManager.GetString("FINC_Common_Toast_OperationFailed", resourceCulture) ?? "FINC_Common_Toast_OperationFailed";
+
+    public static string FINC_Common_Toast_SaveSuccess => ResourceManager.GetString("FINC_Common_Toast_SaveSuccess", resourceCulture) ?? "FINC_Common_Toast_SaveSuccess";
+
     public static string FINC_ClosingPeriods_Button_Lock => ResourceManager.GetString("FINC_ClosingPeriods_Button_Lock", resourceCulture) ?? "FINC_ClosingPeriods_Button_Lock";
 
     public static string FINC_ClosingPeriods_Button_Unlock => ResourceManager.GetString("FINC_ClosingPeriods_Button_Unlock", resourceCulture) ?? "FINC_ClosingPeriods_Button_Unlock";
@@ -156,15 +162,7 @@ public static class Strings
 
     public static string FINC_ClosingPeriods_Status_ToggleFailed => ResourceManager.GetString("FINC_ClosingPeriods_Status_ToggleFailed", resourceCulture) ?? "FINC_ClosingPeriods_Status_ToggleFailed";
 
-    public static string FINC_ClosingPeriods_Toast_DeleteSuccess => ResourceManager.GetString("FINC_ClosingPeriods_Toast_DeleteSuccess", resourceCulture) ?? "FINC_ClosingPeriods_Toast_DeleteSuccess";
-
     public static string FINC_ClosingPeriods_Toast_Locked => ResourceManager.GetString("FINC_ClosingPeriods_Toast_Locked", resourceCulture) ?? "FINC_ClosingPeriods_Toast_Locked";
-
-    public static string FINC_ClosingPeriods_Toast_OperationFailed => ResourceManager.GetString("FINC_ClosingPeriods_Toast_OperationFailed", resourceCulture) ?? "FINC_ClosingPeriods_Toast_OperationFailed";
-
-    public static string FINC_ClosingPeriods_Toast_ReverseSuccess => ResourceManager.GetString("FINC_ClosingPeriods_Toast_ReverseSuccess", resourceCulture) ?? "FINC_ClosingPeriods_Toast_ReverseSuccess";
-
-    public static string FINC_ClosingPeriods_Toast_SaveSuccess => ResourceManager.GetString("FINC_ClosingPeriods_Toast_SaveSuccess", resourceCulture) ?? "FINC_ClosingPeriods_Toast_SaveSuccess";
 
     public static string FINC_ClosingPeriods_Toast_ToggleFailed => ResourceManager.GetString("FINC_ClosingPeriods_Toast_ToggleFailed", resourceCulture) ?? "FINC_ClosingPeriods_Toast_ToggleFailed";
 
@@ -180,25 +178,9 @@ public static class Strings
 
     public static string FINC_ClosingPeriods_Validation_NoFiscalYears => ResourceManager.GetString("FINC_ClosingPeriods_Validation_NoFiscalYears", resourceCulture) ?? "FINC_ClosingPeriods_Validation_NoFiscalYears";
 
-    public static string FINC_Customers_Toast_DeleteSuccess => ResourceManager.GetString("FINC_Customers_Toast_DeleteSuccess", resourceCulture) ?? "FINC_Customers_Toast_DeleteSuccess";
-
-    public static string FINC_Customers_Toast_OperationFailed => ResourceManager.GetString("FINC_Customers_Toast_OperationFailed", resourceCulture) ?? "FINC_Customers_Toast_OperationFailed";
-
-    public static string FINC_Customers_Toast_ReverseSuccess => ResourceManager.GetString("FINC_Customers_Toast_ReverseSuccess", resourceCulture) ?? "FINC_Customers_Toast_ReverseSuccess";
-
-    public static string FINC_Customers_Toast_SaveSuccess => ResourceManager.GetString("FINC_Customers_Toast_SaveSuccess", resourceCulture) ?? "FINC_Customers_Toast_SaveSuccess";
-
     public static string FINC_Dialog_DeleteData_Message => ResourceManager.GetString("FINC_Dialog_DeleteData_Message", resourceCulture) ?? "FINC_Dialog_DeleteData_Message";
 
     public static string FINC_Dialog_DeleteData_Title => ResourceManager.GetString("FINC_Dialog_DeleteData_Title", resourceCulture) ?? "FINC_Dialog_DeleteData_Title";
-
-    public static string FINC_Engagements_Toast_DeleteSuccess => ResourceManager.GetString("FINC_Engagements_Toast_DeleteSuccess", resourceCulture) ?? "FINC_Engagements_Toast_DeleteSuccess";
-
-    public static string FINC_Engagements_Toast_OperationFailed => ResourceManager.GetString("FINC_Engagements_Toast_OperationFailed", resourceCulture) ?? "FINC_Engagements_Toast_OperationFailed";
-
-    public static string FINC_Engagements_Toast_ReverseSuccess => ResourceManager.GetString("FINC_Engagements_Toast_ReverseSuccess", resourceCulture) ?? "FINC_Engagements_Toast_ReverseSuccess";
-
-    public static string FINC_Engagements_Toast_SaveSuccess => ResourceManager.GetString("FINC_Engagements_Toast_SaveSuccess", resourceCulture) ?? "FINC_Engagements_Toast_SaveSuccess";
 
     public static string FINC_FiscalYears_Dialog_Close_Message => ResourceManager.GetString("FINC_FiscalYears_Dialog_Close_Message", resourceCulture) ?? "FINC_FiscalYears_Dialog_Close_Message";
 
@@ -215,14 +197,6 @@ public static class Strings
     public static string FINC_FiscalYears_Status_Locked => ResourceManager.GetString("FINC_FiscalYears_Status_Locked", resourceCulture) ?? "FINC_FiscalYears_Status_Locked";
 
     public static string FINC_FiscalYears_Status_Unlocked => ResourceManager.GetString("FINC_FiscalYears_Status_Unlocked", resourceCulture) ?? "FINC_FiscalYears_Status_Unlocked";
-
-    public static string FINC_FiscalYears_Toast_DeleteDataSuccess => ResourceManager.GetString("FINC_FiscalYears_Toast_DeleteDataSuccess", resourceCulture) ?? "FINC_FiscalYears_Toast_DeleteDataSuccess";
-
-    public static string FINC_FiscalYears_Toast_DeleteSuccess => ResourceManager.GetString("FINC_FiscalYears_Toast_DeleteSuccess", resourceCulture) ?? "FINC_FiscalYears_Toast_DeleteSuccess";
-
-    public static string FINC_FiscalYears_Toast_OperationFailed => ResourceManager.GetString("FINC_FiscalYears_Toast_OperationFailed", resourceCulture) ?? "FINC_FiscalYears_Toast_OperationFailed";
-
-    public static string FINC_FiscalYears_Toast_SaveSuccess => ResourceManager.GetString("FINC_FiscalYears_Toast_SaveSuccess", resourceCulture) ?? "FINC_FiscalYears_Toast_SaveSuccess";
 
     public static string FINC_FiscalYears_Validation_EndDateAfterStart => ResourceManager.GetString("FINC_FiscalYears_Validation_EndDateAfterStart", resourceCulture) ?? "FINC_FiscalYears_Validation_EndDateAfterStart";
 
@@ -286,12 +260,6 @@ public static class Strings
 
     public static string FINC_Import_Warning_SelectClosingPeriod => ResourceManager.GetString("FINC_Import_Warning_SelectClosingPeriod", resourceCulture) ?? "FINC_Import_Warning_SelectClosingPeriod";
 
-    public static string FINC_Managers_Toast_DeleteSuccess => ResourceManager.GetString("FINC_Managers_Toast_DeleteSuccess", resourceCulture) ?? "FINC_Managers_Toast_DeleteSuccess";
-
-    public static string FINC_Managers_Toast_OperationFailed => ResourceManager.GetString("FINC_Managers_Toast_OperationFailed", resourceCulture) ?? "FINC_Managers_Toast_OperationFailed";
-
-    public static string FINC_Managers_Toast_SaveSuccess => ResourceManager.GetString("FINC_Managers_Toast_SaveSuccess", resourceCulture) ?? "FINC_Managers_Toast_SaveSuccess";
-
     public static string FINC_MasterData_RankMappings_Columns_CreatedAt => ResourceManager.GetString("FINC_MasterData_RankMappings_Columns_CreatedAt", resourceCulture) ?? "FINC_MasterData_RankMappings_Columns_CreatedAt";
 
     public static string FINC_MasterData_RankMappings_Columns_IsActive => ResourceManager.GetString("FINC_MasterData_RankMappings_Columns_IsActive", resourceCulture) ?? "FINC_MasterData_RankMappings_Columns_IsActive";
@@ -347,20 +315,6 @@ public static class Strings
     public static string FINC_Navigation_Settings => ResourceManager.GetString("FINC_Navigation_Settings", resourceCulture) ?? "FINC_Navigation_Settings";
 
     public static string FINC_Navigation_Tasks => ResourceManager.GetString("FINC_Navigation_Tasks", resourceCulture) ?? "FINC_Navigation_Tasks";
-
-    public static string FINC_Papds_Toast_DeleteDataSuccess => ResourceManager.GetString("FINC_Papds_Toast_DeleteDataSuccess", resourceCulture) ?? "FINC_Papds_Toast_DeleteDataSuccess";
-
-    public static string FINC_Papds_Toast_DeleteSuccess => ResourceManager.GetString("FINC_Papds_Toast_DeleteSuccess", resourceCulture) ?? "FINC_Papds_Toast_DeleteSuccess";
-
-    public static string FINC_Papds_Toast_OperationFailed => ResourceManager.GetString("FINC_Papds_Toast_OperationFailed", resourceCulture) ?? "FINC_Papds_Toast_OperationFailed";
-
-    public static string FINC_Papds_Toast_SaveSuccess => ResourceManager.GetString("FINC_Papds_Toast_SaveSuccess", resourceCulture) ?? "FINC_Papds_Toast_SaveSuccess";
-
-    public static string FINC_RankMappings_Toast_DeleteSuccess => ResourceManager.GetString("FINC_RankMappings_Toast_DeleteSuccess", resourceCulture) ?? "FINC_RankMappings_Toast_DeleteSuccess";
-
-    public static string FINC_RankMappings_Toast_OperationFailed => ResourceManager.GetString("FINC_RankMappings_Toast_OperationFailed", resourceCulture) ?? "FINC_RankMappings_Toast_OperationFailed";
-
-    public static string FINC_RankMappings_Toast_SaveSuccess => ResourceManager.GetString("FINC_RankMappings_Toast_SaveSuccess", resourceCulture) ?? "FINC_RankMappings_Toast_SaveSuccess";
 
     public static string FINC_Reports_Button_OpenBrowser => ResourceManager.GetString("FINC_Reports_Button_OpenBrowser", resourceCulture) ?? "FINC_Reports_Button_OpenBrowser";
 
