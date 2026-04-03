@@ -9,7 +9,7 @@ public class MessageBucket
 
 	public List<EtcExport> Etcs { get; set; } = new List<EtcExport>();
 
-	public IReadOnlyList<Recipient> GetOrderedRecipients()
+	public IReadOnlyList<RecipientAssignment> GetOrderedRecipients()
 	{
 		return (from r in Invoices.SelectMany((InvoiceExport i) => i.Recipients).Concat(Etcs.SelectMany((EtcExport e) => e.Recipients))
 			group r by r.Email into g

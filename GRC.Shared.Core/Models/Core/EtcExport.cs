@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using GRC.Shared.Core.Models.Financial;
 
 namespace GRC.Shared.Core.Models.Core;
 
@@ -16,7 +15,7 @@ public class EtcExport
 
 	public DateTime? ProposedNextEtcDate { get; set; }
 
-	public IReadOnlyList<Recipient> Recipients { get; set; } = new List<Recipient>();
+	public IReadOnlyList<RecipientAssignment> Recipients { get; set; } = Array.Empty<RecipientAssignment>();
 
-	public IReadOnlyList<FiscalYear> FiscalYears { get; set; } = new List<FiscalYear>();
+	public IReadOnlyList<EtcFiscalYear> FiscalYears { get; set; } = Array.Empty<EtcFiscalYear>();
 }

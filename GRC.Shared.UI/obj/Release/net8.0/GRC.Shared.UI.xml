@@ -548,6 +548,7 @@
             <summary>
             Provides common messenger plumbing and command helpers for observable view models.
             </summary>
+            <inheritdoc/>
         </member>
         <member name="M:GRC.Shared.UI.ViewModels.ObservableViewModelBase.#ctor(CommunityToolkit.Mvvm.Messaging.IMessenger)">
             <summary>
@@ -559,6 +560,18 @@
             <summary>
             Gets the messenger used to communicate across view models.
             </summary>
+        </member>
+        <member name="F:GRC.Shared.UI.ViewModels.ObservableViewModelBase._isBusy">
+            <summary>
+            Gets or sets a value indicating whether the view model is currently performing a background operation.
+            </summary>
+        </member>
+        <member name="M:GRC.Shared.UI.ViewModels.ObservableViewModelBase.OnBusyStateChanged(System.Boolean)">
+            <summary>
+            Called after the <see cref="P:GRC.Shared.UI.ViewModels.ObservableViewModelBase.IsBusy"/> property changes.
+            Override in derived classes to react to busy-state transitions (e.g. refresh command eligibility).
+            </summary>
+            <param name="value">The new busy-state value.</param>
         </member>
         <member name="M:GRC.Shared.UI.ViewModels.ObservableViewModelBase.LoadDataAsync">
             <summary>
@@ -572,10 +585,17 @@
             </summary>
             <param name="command">The command requiring a refresh.</param>
         </member>
+        <member name="P:GRC.Shared.UI.ViewModels.ObservableViewModelBase.IsBusy">
+            <inheritdoc cref="F:GRC.Shared.UI.ViewModels.ObservableViewModelBase._isBusy"/>
+        </member>
+        <member name="M:GRC.Shared.UI.ViewModels.ObservableViewModelBase.OnIsBusyChanged(System.Boolean)">
+            <summary>Source-generated hook; delegates to the virtual <see cref="M:GRC.Shared.UI.ViewModels.ObservableViewModelBase.OnBusyStateChanged(System.Boolean)"/>.</summary>
+        </member>
         <member name="T:GRC.Shared.UI.ViewModels.ValidatableViewModelBase">
             <summary>
             Provides messenger-driven refresh handling and command helpers for validatable view models.
             </summary>
+            <inheritdoc/>
         </member>
         <member name="M:GRC.Shared.UI.ViewModels.ValidatableViewModelBase.#ctor(CommunityToolkit.Mvvm.Messaging.IMessenger,System.Collections.Generic.IEnumerable{System.String})">
             <summary>
@@ -588,6 +608,18 @@
             <summary>
             Gets the messenger used to communicate across view models.
             </summary>
+        </member>
+        <member name="F:GRC.Shared.UI.ViewModels.ValidatableViewModelBase._isBusy">
+            <summary>
+            Gets or sets a value indicating whether the view model is currently performing a background operation.
+            </summary>
+        </member>
+        <member name="M:GRC.Shared.UI.ViewModels.ValidatableViewModelBase.OnBusyStateChanged(System.Boolean)">
+            <summary>
+            Called after the <see cref="P:GRC.Shared.UI.ViewModels.ValidatableViewModelBase.IsBusy"/> property changes.
+            Override in derived classes to react to busy-state transitions (e.g. refresh command eligibility).
+            </summary>
+            <param name="value">The new busy-state value.</param>
         </member>
         <member name="M:GRC.Shared.UI.ViewModels.ValidatableViewModelBase.LoadDataAsync">
             <summary>
@@ -603,6 +635,18 @@
             Notifies the provided command that its execution eligibility may have changed.
             </summary>
             <param name="command">The command requiring a refresh.</param>
+        </member>
+        <member name="M:GRC.Shared.UI.ViewModels.ValidatableViewModelBase.SafeRefreshAsync">
+            <summary>
+            Executes <see cref="M:GRC.Shared.UI.ViewModels.ValidatableViewModelBase.LoadDataAsync"/> with error handling so that messenger-driven
+            refreshes surface failures via toast instead of silently swallowing them.
+            </summary>
+        </member>
+        <member name="P:GRC.Shared.UI.ViewModels.ValidatableViewModelBase.IsBusy">
+            <inheritdoc cref="F:GRC.Shared.UI.ViewModels.ValidatableViewModelBase._isBusy"/>
+        </member>
+        <member name="M:GRC.Shared.UI.ViewModels.ValidatableViewModelBase.OnIsBusyChanged(System.Boolean)">
+            <summary>Source-generated hook; delegates to the virtual <see cref="M:GRC.Shared.UI.ViewModels.ValidatableViewModelBase.OnBusyStateChanged(System.Boolean)"/>.</summary>
         </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
             <summary>
@@ -637,6 +681,9 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SecondaryButtonText">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SecondaryButtonText" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
@@ -669,6 +716,9 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SecondaryButtonText">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SecondaryButtonText" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsBusy" generated properties.</summary>
         </member>
     </members>
 </doc>

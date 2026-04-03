@@ -822,6 +822,9 @@
   <data name="FINC_Tasks_Button_GenerateRetainTemplate" xml:space="preserve">
     <value>Generate Retain template</value>
   </data>
+  <data name="FINC_Tasks_Button_RefreshMaterialized" xml:space="preserve">
+    <value>Refresh materialized tables</value>
+  </data>
   <data name="FINC_Tasks_Description_Primary" xml:space="preserve">
     <value>Generate the weekly administrative tasks file for email delivery.</value>
   </data>
@@ -842,6 +845,12 @@
   </data>
   <data name="FINC_Tasks_Status_GenerationFailure" xml:space="preserve">
     <value>Failed to generate tasks: {0}</value>
+  </data>
+  <data name="FINC_Tasks_Status_RefreshFailure" xml:space="preserve">
+    <value>Failed to refresh materialized tables: {0}</value>
+  </data>
+  <data name="FINC_Tasks_Status_RefreshSuccess" xml:space="preserve">
+    <value>Materialized tables refreshed successfully.</value>
   </data>
   <data name="FINC_Tasks_Status_RetainTemplateCancelled" xml:space="preserve">
     <value>Retain template generation cancelled.</value>
