@@ -11,7 +11,7 @@ public class Papd
 
 	public string Level { get; set; } = string.Empty;
 
-	public string WindowsLogin { get; set; } = string.Empty;
+	public string? WindowsLogin { get; set; }
 
 	public string EngagementPapdGui { get; set; } = string.Empty;
 

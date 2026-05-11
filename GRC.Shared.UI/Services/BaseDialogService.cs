@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Threading.Tasks;
 using Avalonia;
 using Avalonia.Controls;
@@ -42,28 +43,40 @@ public abstract class BaseDialogService
     /// <summary>
     /// Displays a modal dialog for the given view model.
     /// </summary>
+    private static void Diag(string msg)
+    {
+        try { File.AppendAllText("/tmp/grc-diag-file.log", $"[{DateTime.Now:HH:mm:ss.fff}] {msg}\n"); } catch { }
+    }
+
     public async Task<bool> ShowDialogAsync(object viewModel, string? title = null)
     {
+        Diag($"[BASE] ShowDialogAsync entered for {viewModel.GetType().Name}");
         if (Application.Current?.ApplicationLifetime is not IClassicDesktopStyleApplicationLifetime desktop)
         {
+            Diag("[BASE] Not IClassicDesktopStyleApplicationLifetime");
             return false;
         }
 
         if (desktop.MainWindow is null)
         {
+            Diag("[BASE] MainWindow is null");
             return false;
         }
 
+        Diag("[BASE] Building view...");
         var view = BuildView(viewModel);
         if (view is null)
         {
             throw new InvalidOperationException($"Could not locate a view for the view model '{viewModel.GetType().FullName}'.");
         }
+        Diag($"[BASE] View built: {view.GetType().Name}");
 
         var owner = desktop.MainWindow;
         var options = GetModalDialogOptions() ?? new ModalDialogOptions();
+        Diag("[BASE] Creating modal dialog session...");
         var session = _modalDialogService.Create(owner, view, title, options);
         var dialog = session.Dialog;
+        Diag("[BASE] Session created OK");
 
         // Provide close callback for shared dialog view models so they can close themselves.
         void CloseDialog(bool result) => dialog.Close(result);
@@ -81,6 +94,7 @@ public abstract class BaseDialogService
 
         dialog.Opened += (_, _) =>
         {
+            Diag("[BASE] Dialog Opened event fired");
             Dispatcher.UIThread.Post(session.FocusFirstElement, DispatcherPriority.Background);
             dialog.KeyDown += session.KeyDownHandler;
         };
@@ -91,7 +105,9 @@ public abstract class BaseDialogService
 
         try
         {
+            Diag("[BASE] Calling dialog.ShowDialog<bool?>(owner)...");
             var result = await dialog.ShowDialog<bool?>(owner).ConfigureAwait(false);
+            Diag($"[BASE] ShowDialog returned: {result}");
             return result ?? false;
         }
         finally

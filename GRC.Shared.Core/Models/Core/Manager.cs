@@ -11,7 +11,7 @@ public class Manager
 
 	public string Email { get; set; } = string.Empty;
 
-	public string WindowsLogin { get; set; } = string.Empty;
+	public string? WindowsLogin { get; set; }
 
 	public string EngagementManagerGui { get; set; } = string.Empty;
 

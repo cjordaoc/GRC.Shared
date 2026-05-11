@@ -1,6 +1,7 @@
 using System;
 using System.Collections.ObjectModel;
 using System.Collections.Generic;
+using System.Windows.Input;
 using Avalonia.Threading;
 
 namespace GRC.Shared.UI.Services;
@@ -26,6 +27,7 @@ public sealed class ToastNotification
         Type = type;
         Message = message;
         CreatedAt = DateTimeOffset.UtcNow;
+        CloseCommand = new DismissCommand(Id);
     }
 
     public Guid Id { get; }
@@ -35,6 +37,17 @@ public sealed class ToastNotification
     public string Message { get; }
 
     public DateTimeOffset CreatedAt { get; }
+
+    public ICommand CloseCommand { get; }
+
+    private sealed class DismissCommand : ICommand
+    {
+        private readonly Guid _id;
+        public DismissCommand(Guid id) => _id = id;
+        public bool CanExecute(object? parameter) => true;
+        public void Execute(object? parameter) => ToastService.Dismiss(_id);
+        public event EventHandler? CanExecuteChanged { add { } remove { } }
+    }
 }
 
 /// <summary>
@@ -89,6 +102,8 @@ public static class ToastService
         Dispatch(Execute);
     }
 
+    private const int MaxVisibleToasts = 3;
+
     private static void Show(ToastType type, string message, TimeSpan? duration, params object[] arguments)
     {
         if (string.IsNullOrWhiteSpace(message))
@@ -102,6 +117,26 @@ public static class ToastService
 
         void Execute()
         {
+            // Skip duplicate messages already visible
+            for (var i = 0; i < NotificationsImpl.Count; i++)
+            {
+                if (string.Equals(NotificationsImpl[i].Message, finalMessage, StringComparison.Ordinal))
+                {
+                    return;
+                }
+            }
+
+            // Evict oldest when at capacity
+            while (NotificationsImpl.Count >= MaxVisibleToasts)
+            {
+                var oldest = NotificationsImpl[0];
+                if (Timers.Remove(oldest.Id, out var timer))
+                {
+                    timer.Stop();
+                }
+                NotificationsImpl.RemoveAt(0);
+            }
+
             var notification = new ToastNotification(type, finalMessage);
             NotificationsImpl.Add(notification);
             ScheduleDismiss(notification.Id, duration ?? DefaultDuration);

@@ -178,15 +178,20 @@ public sealed class ModalDialogService : IModalDialogService
             // ToastService not available, skip adding toasts
         }
 
+        var isLinux = System.Runtime.InteropServices.RuntimeInformation.IsOSPlatform(
+            System.Runtime.InteropServices.OSPlatform.Linux);
+
         var dialog = new Window
         {
             Title = title,
             Content = rootPanel,
             ShowInTaskbar = false,
             CanResize = false,
-            SystemDecorations = SystemDecorations.None,
-            Background = Brushes.Transparent,
-            TransparencyLevelHint = new[] { WindowTransparencyLevel.Transparent },
+            SystemDecorations = isLinux ? SystemDecorations.Full : SystemDecorations.None,
+            Background = isLinux ? new SolidColorBrush(Color.FromArgb(240, 30, 30, 30)) : Brushes.Transparent,
+            TransparencyLevelHint = isLinux
+                ? new[] { WindowTransparencyLevel.None }
+                : new[] { WindowTransparencyLevel.Transparent },
             Padding = new Thickness(0),
             SizeToContent = SizeToContent.Manual,
             WindowStartupLocation = layout == ModalDialogLayout.CenteredOverlay
