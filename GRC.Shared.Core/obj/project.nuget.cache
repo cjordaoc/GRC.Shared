@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "0vYQGnBz0fEgoOa3wNIbxqkXWy7mrbsjSYFjdPzB+rr2P4JrExyRkWylaEUsYoo/cDwxFQvmOptNHaRYXLpPbg==",
+  "dgSpecHash": "nTYlXlSlocI=",
   "success": true,
   "projectFilePath": "/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.Core/GRC.Shared.Core.csproj",
   "expectedPackageFiles": [
-    "/home/cjcalisto/.nuget/packages/microsoft.net.illink.tasks/8.0.24/microsoft.net.illink.tasks.8.0.24.nupkg.sha512",
-    "/home/cjcalisto/.nuget/packages/microsoft.netcore.app.crossgen2.linux-x64/8.0.24/microsoft.netcore.app.crossgen2.linux-x64.8.0.24.nupkg.sha512"
+    "/home/cjcalisto/.nuget/packages/microsoft.net.illink.tasks/8.0.25/microsoft.net.illink.tasks.8.0.25.nupkg.sha512",
+    "/home/cjcalisto/.nuget/packages/microsoft.netcore.app.ref/8.0.25/microsoft.netcore.app.ref.8.0.25.nupkg.sha512",
+    "/home/cjcalisto/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.25/microsoft.aspnetcore.app.ref.8.0.25.nupkg.sha512",
+    "/home/cjcalisto/.nuget/packages/microsoft.netcore.app.crossgen2.linux-x64/8.0.25/microsoft.netcore.app.crossgen2.linux-x64.8.0.25.nupkg.sha512"
   ],
   "logs": []
 }

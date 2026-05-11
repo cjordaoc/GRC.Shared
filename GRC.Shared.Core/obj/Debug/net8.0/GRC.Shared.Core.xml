@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GRC.Shared.Core</name>
+    </assembly>
+    <members>
+        <member name="T:GRC.Shared.Core.Models.Core.EtcFiscalYear">
+            <summary>
+            Fiscal-year hours breakdown used in ETC export DTOs.
+            </summary>
+        </member>
+        <member name="T:GRC.Shared.Core.Models.Core.EtcRankHours">
+            <summary>
+            Consumed and remaining hours for a single rank within an ETC fiscal year.
+            </summary>
+        </member>
+        <member name="T:GRC.Shared.Core.Models.Core.RecipientAssignment">
+            <summary>
+            Lightweight recipient assignment used within export DTOs
+            to carry email, optional name, and position (Manager / SeniorManager).
+            </summary>
+        </member>
+        <member name="M:GRC.Shared.Core.Models.Core.RecipientAssignment.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Lightweight recipient assignment used within export DTOs
+            to carry email, optional name, and position (Manager / SeniorManager).
+            </summary>
+        </member>
+        <member name="T:GRC.Shared.Core.Services.ITabDelimitedExportService">
+            <summary>
+            Exports tabular data as tab-delimited text files.
+            </summary>
+        </member>
+        <member name="M:GRC.Shared.Core.Services.ITabDelimitedExportService.ExportAsync(System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{System.String}})">
+            <summary>
+            Writes header and detail rows to a tab-delimited file at the specified path.
+            </summary>
+        </member>
+    </members>
+</doc>

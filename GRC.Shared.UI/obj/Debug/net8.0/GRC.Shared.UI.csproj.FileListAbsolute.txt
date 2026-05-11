@@ -13,35 +13,56 @@
 /workspace/GRC.Shared.UI/obj/Debug/net8.0/refint/GRC.Shared.UI.dll
 /workspace/GRC.Shared.UI/obj/Debug/net8.0/GRC.Shared.UI.pdb
 /workspace/GRC.Shared.UI/obj/Debug/net8.0/ref/GRC.Shared.UI.dll
-C:\Users\caio.calisto\OneDrive - EY\Documentos\GitHub\GRCFinancialControl\GRC.Shared\GRC.Shared.UI\bin\Debug\net8.0\GRC.Shared.UI.deps.json
-C:\Users\caio.calisto\OneDrive - EY\Documentos\GitHub\GRCFinancialControl\GRC.Shared\GRC.Shared.UI\bin\Debug\net8.0\GRC.Shared.UI.dll
-C:\Users\caio.calisto\OneDrive - EY\Documentos\GitHub\GRCFinancialControl\GRC.Shared\GRC.Shared.UI\bin\Debug\net8.0\GRC.Shared.UI.pdb
-C:\Users\caio.calisto\OneDrive - EY\Documentos\GitHub\GRCFinancialControl\GRC.Shared\GRC.Shared.UI\bin\Debug\net8.0\GRC.Shared.UI.xml
-C:\Users\caio.calisto\OneDrive - EY\Documentos\GitHub\GRCFinancialControl\GRC.Shared\GRC.Shared.UI\obj\Debug\net8.0\GRC.Shared.UI.csproj.AssemblyReference.cache
-C:\Users\caio.calisto\OneDrive - EY\Documentos\GitHub\GRCFinancialControl\GRC.Shared\GRC.Shared.UI\obj\Debug\net8.0\Avalonia\Resources.Inputs.cache
-C:\Users\caio.calisto\OneDrive - EY\Documentos\GitHub\GRCFinancialControl\GRC.Shared\GRC.Shared.UI\obj\Debug\net8.0\Avalonia\resources
-C:\Users\caio.calisto\OneDrive - EY\Documentos\GitHub\GRCFinancialControl\GRC.Shared\GRC.Shared.UI\obj\Debug\net8.0\GRC.Shared.UI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\caio.calisto\OneDrive - EY\Documentos\GitHub\GRCFinancialControl\GRC.Shared\GRC.Shared.UI\obj\Debug\net8.0\GRC.Shared.UI.AssemblyInfoInputs.cache
-C:\Users\caio.calisto\OneDrive - EY\Documentos\GitHub\GRCFinancialControl\GRC.Shared\GRC.Shared.UI\obj\Debug\net8.0\GRC.Shared.UI.AssemblyInfo.cs
-C:\Users\caio.calisto\OneDrive - EY\Documentos\GitHub\GRCFinancialControl\GRC.Shared\GRC.Shared.UI\obj\Debug\net8.0\GRC.Shared.UI.csproj.CoreCompileInputs.cache
-C:\Users\caio.calisto\OneDrive - EY\Documentos\GitHub\GRCFinancialControl\GRC.Shared\GRC.Shared.UI\obj\Debug\net8.0\GRC.Shared.UI.sourcelink.json
-C:\Users\caio.calisto\OneDrive - EY\Documentos\GitHub\GRCFinancialControl\GRC.Shared\GRC.Shared.UI\obj\Debug\net8.0\GRC.Shared.UI.dll
-C:\Users\caio.calisto\OneDrive - EY\Documentos\GitHub\GRCFinancialControl\GRC.Shared\GRC.Shared.UI\obj\Debug\net8.0\refint\GRC.Shared.UI.dll
-C:\Users\caio.calisto\OneDrive - EY\Documentos\GitHub\GRCFinancialControl\GRC.Shared\GRC.Shared.UI\obj\Debug\net8.0\GRC.Shared.UI.xml
-C:\Users\caio.calisto\OneDrive - EY\Documentos\GitHub\GRCFinancialControl\GRC.Shared\GRC.Shared.UI\obj\Debug\net8.0\GRC.Shared.UI.pdb
-C:\Users\caio.calisto\OneDrive - EY\Documentos\GitHub\GRCFinancialControl\GRC.Shared\GRC.Shared.UI\obj\Debug\net8.0\ref\GRC.Shared.UI.dll
-C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.UI\bin\Debug\net8.0\GRC.Shared.UI.deps.json
-C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.UI\bin\Debug\net8.0\GRC.Shared.UI.dll
-C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.UI\bin\Debug\net8.0\GRC.Shared.UI.pdb
-C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.UI\obj\Debug\net8.0\GRC.Shared.UI.csproj.AssemblyReference.cache
-C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.UI\obj\Debug\net8.0\Avalonia\Resources.Inputs.cache
-C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.UI\obj\Debug\net8.0\Avalonia\resources
-C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.UI\obj\Debug\net8.0\GRC.Shared.UI.GeneratedMSBuildEditorConfig.editorconfig
-C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.UI\obj\Debug\net8.0\GRC.Shared.UI.AssemblyInfoInputs.cache
-C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.UI\obj\Debug\net8.0\GRC.Shared.UI.AssemblyInfo.cs
-C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.UI\obj\Debug\net8.0\GRC.Shared.UI.csproj.CoreCompileInputs.cache
-C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.UI\obj\Debug\net8.0\GRC.Shared.UI.sourcelink.json
-C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.UI\obj\Debug\net8.0\GRC.Shared.UI.dll
-C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.UI\obj\Debug\net8.0\refint\GRC.Shared.UI.dll
-C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.UI\obj\Debug\net8.0\GRC.Shared.UI.pdb
-C:\FourTierManagementWinUI3\GRC.Shared\GRC.Shared.UI\obj\Debug\net8.0\ref\GRC.Shared.UI.dll
+C:/Users/caio.calisto/OneDrive - EY/Documentos/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/bin/Debug/net8.0/GRC.Shared.UI.deps.json
+C:/Users/caio.calisto/OneDrive - EY/Documentos/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/bin/Debug/net8.0/GRC.Shared.UI.dll
+C:/Users/caio.calisto/OneDrive - EY/Documentos/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/bin/Debug/net8.0/GRC.Shared.UI.pdb
+C:/Users/caio.calisto/OneDrive - EY/Documentos/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/bin/Debug/net8.0/GRC.Shared.UI.xml
+C:/Users/caio.calisto/OneDrive - EY/Documentos/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/GRC.Shared.UI.csproj.AssemblyReference.cache
+C:/Users/caio.calisto/OneDrive - EY/Documentos/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/Avalonia/Resources.Inputs.cache
+C:/Users/caio.calisto/OneDrive - EY/Documentos/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/Avalonia/resources
+C:/Users/caio.calisto/OneDrive - EY/Documentos/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/GRC.Shared.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/caio.calisto/OneDrive - EY/Documentos/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/GRC.Shared.UI.AssemblyInfoInputs.cache
+C:/Users/caio.calisto/OneDrive - EY/Documentos/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/GRC.Shared.UI.AssemblyInfo.cs
+C:/Users/caio.calisto/OneDrive - EY/Documentos/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/GRC.Shared.UI.csproj.CoreCompileInputs.cache
+C:/Users/caio.calisto/OneDrive - EY/Documentos/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/GRC.Shared.UI.sourcelink.json
+C:/Users/caio.calisto/OneDrive - EY/Documentos/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/GRC.Shared.UI.dll
+C:/Users/caio.calisto/OneDrive - EY/Documentos/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/refint/GRC.Shared.UI.dll
+C:/Users/caio.calisto/OneDrive - EY/Documentos/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/GRC.Shared.UI.xml
+C:/Users/caio.calisto/OneDrive - EY/Documentos/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/GRC.Shared.UI.pdb
+C:/Users/caio.calisto/OneDrive - EY/Documentos/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/ref/GRC.Shared.UI.dll
+C:/FourTierManagementWinUI3/GRC.Shared/GRC.Shared.UI/bin/Debug/net8.0/GRC.Shared.UI.deps.json
+C:/FourTierManagementWinUI3/GRC.Shared/GRC.Shared.UI/bin/Debug/net8.0/GRC.Shared.UI.dll
+C:/FourTierManagementWinUI3/GRC.Shared/GRC.Shared.UI/bin/Debug/net8.0/GRC.Shared.UI.pdb
+C:/FourTierManagementWinUI3/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/GRC.Shared.UI.csproj.AssemblyReference.cache
+C:/FourTierManagementWinUI3/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/Avalonia/Resources.Inputs.cache
+C:/FourTierManagementWinUI3/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/Avalonia/resources
+C:/FourTierManagementWinUI3/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/GRC.Shared.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:/FourTierManagementWinUI3/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/GRC.Shared.UI.AssemblyInfoInputs.cache
+C:/FourTierManagementWinUI3/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/GRC.Shared.UI.AssemblyInfo.cs
+C:/FourTierManagementWinUI3/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/GRC.Shared.UI.csproj.CoreCompileInputs.cache
+C:/FourTierManagementWinUI3/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/GRC.Shared.UI.sourcelink.json
+C:/FourTierManagementWinUI3/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/GRC.Shared.UI.dll
+C:/FourTierManagementWinUI3/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/refint/GRC.Shared.UI.dll
+C:/FourTierManagementWinUI3/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/GRC.Shared.UI.pdb
+C:/FourTierManagementWinUI3/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/ref/GRC.Shared.UI.dll
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/bin/Debug/net8.0/GRC.Shared.UI.deps.json
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/bin/Debug/net8.0/GRC.Shared.UI.dll
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/bin/Debug/net8.0/GRC.Shared.UI.pdb
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/bin/Debug/net8.0/GRC.Shared.UI.xml
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/bin/Debug/net8.0/GRC.Shared.Core.dll
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/bin/Debug/net8.0/GRC.Shared.Core.pdb
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/bin/Debug/net8.0/GRC.Shared.Core.xml
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/GRC.Shared.UI.csproj.AssemblyReference.cache
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/Avalonia/Resources.Inputs.cache
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/Avalonia/resources
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/GRC.Shared.UI.GeneratedMSBuildEditorConfig.editorconfig
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/GRC.Shared.UI.AssemblyInfoInputs.cache
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/GRC.Shared.UI.AssemblyInfo.cs
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/GRC.Shared.UI.csproj.CoreCompileInputs.cache
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/GRC.Shared.UI.sourcelink.json
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/GRC.Shar.18318CDF.Up2Date
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/GRC.Shared.UI.dll
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/refint/GRC.Shared.UI.dll
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/GRC.Shared.UI.xml
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/GRC.Shared.UI.pdb
+/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/obj/Debug/net8.0/ref/GRC.Shared.UI.dll

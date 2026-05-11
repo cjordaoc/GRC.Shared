@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gnK0KGmfEGB4PyHnstgUKZTq21AKnBxg6avvQsG3lJZz8VzT7oZ3JVUIS002fpby91vrJl2HhyFGJMe84o2Isw==",
+  "dgSpecHash": "dDJrzN1Yg98=",
   "success": true,
   "projectFilePath": "/home/cjcalisto/Documents/GitHub/GRCFinancialControl/GRC.Shared/GRC.Shared.UI/GRC.Shared.UI.csproj",
   "expectedPackageFiles": [
@@ -23,7 +23,7 @@
     "/home/cjcalisto/.nuget/packages/harfbuzzsharp.nativeassets.webassembly/8.3.1.1/harfbuzzsharp.nativeassets.webassembly.8.3.1.1.nupkg.sha512",
     "/home/cjcalisto/.nuget/packages/harfbuzzsharp.nativeassets.win32/8.3.1.1/harfbuzzsharp.nativeassets.win32.8.3.1.1.nupkg.sha512",
     "/home/cjcalisto/.nuget/packages/microcom.runtime/0.11.0/microcom.runtime.0.11.0.nupkg.sha512",
-    "/home/cjcalisto/.nuget/packages/microsoft.net.illink.tasks/8.0.24/microsoft.net.illink.tasks.8.0.24.nupkg.sha512",
+    "/home/cjcalisto/.nuget/packages/microsoft.net.illink.tasks/8.0.25/microsoft.net.illink.tasks.8.0.25.nupkg.sha512",
     "/home/cjcalisto/.nuget/packages/skiasharp/2.88.9/skiasharp.2.88.9.nupkg.sha512",
     "/home/cjcalisto/.nuget/packages/skiasharp.nativeassets.linux/2.88.9/skiasharp.nativeassets.linux.2.88.9.nupkg.sha512",
     "/home/cjcalisto/.nuget/packages/skiasharp.nativeassets.macos/2.88.9/skiasharp.nativeassets.macos.2.88.9.nupkg.sha512",
@@ -31,7 +31,9 @@
     "/home/cjcalisto/.nuget/packages/skiasharp.nativeassets.win32/2.88.9/skiasharp.nativeassets.win32.2.88.9.nupkg.sha512",
     "/home/cjcalisto/.nuget/packages/system.io.pipelines/8.0.0/system.io.pipelines.8.0.0.nupkg.sha512",
     "/home/cjcalisto/.nuget/packages/tmds.dbus.protocol/0.21.2/tmds.dbus.protocol.0.21.2.nupkg.sha512",
-    "/home/cjcalisto/.nuget/packages/microsoft.netcore.app.crossgen2.linux-x64/8.0.24/microsoft.netcore.app.crossgen2.linux-x64.8.0.24.nupkg.sha512"
+    "/home/cjcalisto/.nuget/packages/microsoft.netcore.app.ref/8.0.25/microsoft.netcore.app.ref.8.0.25.nupkg.sha512",
+    "/home/cjcalisto/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.25/microsoft.aspnetcore.app.ref.8.0.25.nupkg.sha512",
+    "/home/cjcalisto/.nuget/packages/microsoft.netcore.app.crossgen2.linux-x64/8.0.25/microsoft.netcore.app.crossgen2.linux-x64.8.0.25.nupkg.sha512"
   ],
   "logs": []
 }
